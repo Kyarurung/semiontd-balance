@@ -1686,7 +1686,7 @@
       "illagerTowerDeathGauge": 25.0,
       "markedKillBonusGauge": 10.0,
       "incomeKillGauge": 6.0,
-      "waveKillGauge": 2.0,
+      "waveKillGauge": 3.0,
       "gaugeMax": 100.0
     },
     "illager_vindicator_t1": {
