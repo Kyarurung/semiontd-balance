@@ -1857,7 +1857,7 @@
       "explosionRadius": 1.0
     },
     "nether_global": {
-      "lifeStealBonusCap": 0.5,
+      "lifeStealBonusCap": 0.45,
       "netherLifeStealRatio": 0.25,
       "criticalHealthThreshold": 0.35,
       "effectRefreshTicks": 15.0,
