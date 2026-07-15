@@ -180,7 +180,7 @@
       "mineralCost": 200,
       "maxHealth": 120.0,
       "range": 6.0,
-      "damage": 20.0,
+      "damage": 30.0,
       "attackIntervalTicks": 12,
       "aggroPriority": 5
     },
@@ -188,7 +188,7 @@
       "mineralCost": 250,
       "maxHealth": 250.0,
       "range": 3.0,
-      "damage": 18.0,
+      "damage": 20.0,
       "attackIntervalTicks": 10,
       "aggroPriority": 20
     },
@@ -942,12 +942,12 @@
     "t1_cat_tower->t2_lane_clear_cat_tower": 120,
     "t2_anti_tanker_cat_tower->t3_anti_tanker_cat_tower": 210,
     "t2_lane_clear_cat_tower->t3_lane_clear_cat_tower": 210,
-    "t1_zombie_tower->t2_zombie_tower": 120,
-    "t2_zombie_tower->t3_zombie_tower": 250,
+    "t1_zombie_tower->t2_zombie_tower": 105,
+    "t2_zombie_tower->t3_zombie_tower": 220,
     "t1_skeleton_tower->t2_ranged_skeleton_tower": 100,
     "t1_skeleton_tower->t2_melee_tower": 110,
-    "t2_ranged_skeleton_tower->t3_ranged_skeleton_tower": 200,
-    "t2_melee_tower->t3_melee_tower": 200,
+    "t2_ranged_skeleton_tower->t3_ranged_skeleton_tower": 180,
+    "t2_melee_tower->t3_melee_tower": 180,
     "t1_undead_animal_tower->t2_undead_animal_tower": 150,
     "t1_pig_tower->t2_pig_tower": 95,
     "t2_pig_tower->t3_pig_tower": 150,
@@ -1116,13 +1116,13 @@
     },
     "t2_ranged_skeleton_tower": {
       "extraTargets": 1.0,
-      "stackDamageCap": 25.0,
+      "stackDamageCap": 50.0,
       "stackDamage": 0.1,
       "lifeStealRatio": 0.1
     },
     "t3_ranged_skeleton_tower": {
       "extraTargets": 2.0,
-      "stackDamageCap": 50.0,
+      "stackDamageCap": 80.0,
       "stackDamage": 0.3,
       "lifeStealRatio": 0.15
     },
@@ -1131,7 +1131,7 @@
       "splashRadius": 1.25,
       "splashDamageRatio": 0.6,
       "damagePerStack": 0.02,
-      "stackCap": 250.0,
+      "stackCap": 300.0,
       "lifeStealRatio": 0.07
     },
     "t3_melee_tower": {
@@ -1139,7 +1139,7 @@
       "splashRadius": 1.75,
       "splashDamageRatio": 0.85,
       "damagePerStack": 0.1,
-      "stackCap": 500.0,
+      "stackCap": 600.0,
       "lifeStealRatio": 0.1
     },
     "t1_undead_animal_tower": {
