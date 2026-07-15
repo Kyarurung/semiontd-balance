@@ -1,5 +1,5 @@
 {
-  "playReward": 10,
-  "winBonusReward": 15,
-  "lossReward": 5
+  "playReward": 30,
+  "winBonusReward": 30,
+  "lossReward": 20
 }

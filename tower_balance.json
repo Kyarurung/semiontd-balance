@@ -1661,7 +1661,8 @@
       "buffDurationTicks": 120.0,
       "maxStacks": 3.0,
       "radius": 10.0,
-      "cloneDamageReduction": 0.035
+      "cloneDamageReduction": 0.035,
+      "damageReduction": 0.02
     },
     "t2_strong_goat_tower": {
       "cloneDamageBonus": 0.05,
@@ -1669,7 +1670,8 @@
       "buffDurationTicks": 120.0,
       "maxStacks": 3.0,
       "radius": 10.0,
-      "cloneDamageReduction": 0.06
+      "cloneDamageReduction": 0.06,
+      "damageReduction": 0.04
     },
     "t3_extreme_goat_tower": {
       "cloneDamageBonus": 0.1,
@@ -1677,7 +1679,8 @@
       "buffDurationTicks": 120.0,
       "maxStacks": 3.0,
       "radius": 10.0,
-      "cloneDamageReduction": 0.08
+      "cloneDamageReduction": 0.08,
+      "damageReduction": 0.065
     },
     "illager_raid": {
       "timedEffectDurationTicks": 40.0,
@@ -1780,7 +1783,7 @@
       "maxSurvivalStacks": 6.0,
       "bonusPerSurvivedRound": 0.05,
       "splashDamageRatio": 1.0,
-      "splashRadius": 1
+      "splashRadius": 1.0
     },
     "villager_adv_villager_splash_t3": {
       "splashRadius": 1.5,
@@ -1948,7 +1951,7 @@
       "zombieTransitionPulseRadius": 1.5,
       "extraAttackEvery": 2.0,
       "splashDamageRatio": 0.6,
-      "pulseRadius": 2,
+      "pulseRadius": 2.0,
       "extraAttackDamageRatio": 1.25,
       "criticalMarkDamageTakenBonus": 0.4,
       "lowHealthSplashRadiusBonus": 0.75,
@@ -1996,7 +1999,7 @@
   "villagerAdv": {
     "experienceMax": 1557.0,
     "experiencePerTower": 2.0,
-    "experiencePerTier": 2,
+    "experiencePerTier": 2.0,
     "reputationMax": 100.0,
     "reputationGainRoundMultiplier": 0.75,
     "reputationLossPerLeak": 0.5,
