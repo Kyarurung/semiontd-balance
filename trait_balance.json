@@ -1,0 +1,41 @@
+{
+  "traits": {
+    "mobilization_grant": {
+      "startingDiamond": 150.0
+    },
+    "clean_lane_bonus": {
+      "incomeRatio": 0.15
+    },
+    "rapid_deployment": {
+      "refundRateAfterWave": 0.9
+    },
+    "berserk_summons": {
+      "attackDamageBonus": 0.2,
+      "attackSpeedBonus": 0.1
+    },
+    "interception_doctrine": {
+      "damageBonus": 0.15
+    },
+    "opening_salvo": {
+      "attackSpeedBonus": 0.15,
+      "durationSeconds": 15.0
+    },
+    "wavebreaker_doctrine": {
+      "damageBonus": 0.15
+    },
+    "fortitude": {
+      "maxHealthBonus": 0.2,
+      "warlockCoreMaxHealthBonus": 0.1
+    },
+    "double_edged_sword": {
+      "outgoingDamageBonus": 0.25,
+      "incomingDamageBonus": 0.25
+    },
+    "strength_in_numbers": {
+      "damageBonusPerTower": 0.02
+    },
+    "diversity": {
+      "damageBonusPerType": 0.02
+    }
+  }
+}

@@ -16,6 +16,8 @@
 | `leader_targeting.json` | 선두 팀 집중 공격 규칙 |
 | `progression.json` | 경기 결과에 따른 진행도 보상 |
 | `rating.json` | 레이팅 계산 규칙 |
+| `traits.json` | 특성 사용 여부와 선택 제한 시간 |
+| `trait_balance.json` | 특성별 효과 수치 |
 
 ## 변경 이력
 
