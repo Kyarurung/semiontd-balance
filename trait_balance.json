@@ -1,7 +1,7 @@
 {
   "traits": {
     "mobilization_grant": {
-      "startingDiamond": 150.0
+      "startingDiamond": 80.0
     },
     "clean_lane_bonus": {
       "incomeRatio": 0.15
@@ -24,12 +24,12 @@
       "damageBonus": 0.15
     },
     "fortitude": {
-      "maxHealthBonus": 0.2,
-      "warlockCoreMaxHealthBonus": 0.1
+      "maxHealthBonus": 0.3,
+      "warlockCoreMaxHealthBonus": 0.15
     },
     "double_edged_sword": {
       "outgoingDamageBonus": 0.25,
-      "incomingDamageBonus": 0.25
+      "incomingDamageBonus": 0.20
     },
     "strength_in_numbers": {
       "damageBonusPerTower": 0.02
