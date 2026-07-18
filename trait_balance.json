@@ -35,7 +35,7 @@
       "damageBonusPerTower": 0.02
     },
     "diversity": {
-      "damageBonusPerType": 0.02
+      "damageBonusPerType": 0.05
     }
   }
 }
