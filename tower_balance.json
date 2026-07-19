@@ -138,7 +138,7 @@
     },
     "t2_zombie_tower": {
       "mineralCost": 180,
-      "maxHealth": 150.0,
+      "maxHealth": 200.0,
       "range": 3.0,
       "damage": 8.0,
       "attackIntervalTicks": 15,
@@ -146,7 +146,7 @@
     },
     "t3_zombie_tower": {
       "mineralCost": 350,
-      "maxHealth": 225.0,
+      "maxHealth": 300.0,
       "range": 3.0,
       "damage": 10.0,
       "attackIntervalTicks": 15,
@@ -1239,13 +1239,13 @@
       "lifeStealCap": 0.2,
       "roundDamageReduction": 0.1,
       "sacrificeRadius": 25.0,
-      "permanentDamageRatio": 0.05,
-      "permanentHealthRatio": 0.03
+      "permanentDamageRatio": 0.045,
+      "permanentHealthRatio": 0.025
     },
     "melee_warlock_tower": {
       "healthBonusPerStack": 0.25,
       "damageReductionCap": 0.3,
-      "permanentDamageRatio": 0.03,
+      "permanentDamageRatio": 0.025,
       "maxDamageBonus": 0.2,
       "lowHealthSacrificeThreshold": 0.6,
       "roundStatRatio": 0.65,
