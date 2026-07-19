@@ -41,7 +41,7 @@
       "towerLimitBonus": 4.0
     },
     "transcendence": {
-      "damageBonus": 0.3,
+      "damageBonus": 0.5,
       "activationDelaySeconds": 15.0
     }
   }
