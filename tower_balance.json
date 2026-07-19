@@ -42,7 +42,7 @@
     },
     "t3_golem_tower": {
       "mineralCost": 350,
-      "maxHealth": 300.0,
+      "maxHealth": 400.0,
       "range": 3.0,
       "damage": 10.0,
       "attackIntervalTicks": 20,
