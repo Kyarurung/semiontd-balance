@@ -1240,12 +1240,12 @@
       "roundDamageReduction": 0.1,
       "sacrificeRadius": 25.0,
       "permanentDamageRatio": 0.045,
-      "permanentHealthRatio": 0.025
+      "permanentHealthRatio": 0.03
     },
     "melee_warlock_tower": {
       "healthBonusPerStack": 0.25,
       "damageReductionCap": 0.3,
-      "permanentDamageRatio": 0.025,
+      "permanentDamageRatio": 0.03,
       "maxDamageBonus": 0.2,
       "lowHealthSacrificeThreshold": 0.6,
       "roundStatRatio": 0.65,
