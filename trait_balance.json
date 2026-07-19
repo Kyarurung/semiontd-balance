@@ -36,6 +36,13 @@
     },
     "diversity": {
       "damageBonusPerType": 0.05
+    },
+    "supply_depot": {
+      "towerLimitBonus": 4.0
+    },
+    "transcendence": {
+      "damageBonus": 0.3,
+      "activationDelaySeconds": 20.0
     }
   }
 }
