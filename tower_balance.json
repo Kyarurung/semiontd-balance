@@ -1133,7 +1133,7 @@
       "splashRadius": 1.25,
       "splashDamageRatio": 0.6,
       "damagePerStack": 0.02,
-      "stackCap": 300.0,
+      "stackCap": 290.0,
       "lifeStealRatio": 0.07,
       "deathStackRange": 5.0
     },
@@ -1142,7 +1142,7 @@
       "splashRadius": 1.75,
       "splashDamageRatio": 0.85,
       "damagePerStack": 0.1,
-      "stackCap": 600.0,
+      "stackCap": 580.0,
       "lifeStealRatio": 0.1,
       "deathStackRange": 5.0
     },
