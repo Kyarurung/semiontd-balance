@@ -14,14 +14,14 @@
       "attackSpeedBonus": 0.1
     },
     "interception_doctrine": {
-      "damageBonus": 0.15
+      "damageBonus": 0.25
     },
     "opening_salvo": {
       "attackSpeedBonus": 0.25,
       "durationSeconds": 15.0
     },
     "wavebreaker_doctrine": {
-      "damageBonus": 0.15
+      "damageBonus": 0.25
     },
     "fortitude": {
       "maxHealthBonus": 0.3,
