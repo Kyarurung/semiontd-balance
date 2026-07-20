@@ -439,7 +439,7 @@
           {
             "id": "warden_boss_15",
             "health": 1100,
-            "armor": 23.0,
+            "armor": 10.0,
             "attackDamage": 30,
             "attackKind": "MELEE",
             "entityType": "minecraft:warden",
@@ -465,9 +465,9 @@
         "default": [
           {
             "id": "hoglin_tank_16",
-            "health": 120.0,
+            "health": 135.0,
             "armor": 10.0,
-            "attackDamage": 3.0,
+            "attackDamage": 4.0,
             "attackKind": "MELEE",
             "entityType": "minecraft:hoglin",
             "dimensions": {
@@ -483,9 +483,9 @@
           },
           {
             "id": "zombified_piglin_rush_16",
-            "health": 60.0,
+            "health": 70.0,
             "armor": 3.0,
-            "attackDamage": 5.0,
+            "attackDamage": 6.0,
             "attackKind": "MELEE",
             "entityType": "minecraft:zombified_piglin",
             "dimensions": {
@@ -501,9 +501,9 @@
           },
           {
             "id": "piglin_ranged_16",
-            "health": 45.0,
+            "health": 50.0,
             "armor": 3.0,
-            "attackDamage": 4.0,
+            "attackDamage": 5.0,
             "attackKind": "RANGED",
             "entityType": "minecraft:piglin",
             "dimensions": {
@@ -573,9 +573,9 @@
         "default": [
           {
             "id": "magma_cube_tank_18",
-            "health": 120.0,
+            "health": 135.0,
             "armor": 14.0,
-            "attackDamage": 4.0,
+            "attackDamage": 5.0,
             "attackKind": "MELEE",
             "entityType": "minecraft:magma_cube",
             "dimensions": {
@@ -591,9 +591,9 @@
           },
           {
             "id": "wither_skeleton_rush_18",
-            "health": 45.0,
+            "health": 52.0,
             "armor": 7.0,
-            "attackDamage": 6.0,
+            "attackDamage": 7.0,
             "attackKind": "MELEE",
             "entityType": "minecraft:wither_skeleton",
             "dimensions": {
@@ -609,9 +609,9 @@
           },
           {
             "id": "piglin_artillery_18",
-            "health": 30.0,
+            "health": 36.0,
             "armor": 4.0,
-            "attackDamage": 8.0,
+            "attackDamage": 9.0,
             "attackKind": "RANGED",
             "entityType": "minecraft:piglin",
             "dimensions": {
