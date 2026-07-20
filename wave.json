@@ -465,7 +465,7 @@
         "default": [
           {
             "id": "hoglin_tank_16",
-            "health": 135.0,
+            "health": 120.0,
             "armor": 10.0,
             "attackDamage": 4.0,
             "attackKind": "MELEE",
@@ -483,7 +483,7 @@
           },
           {
             "id": "zombified_piglin_rush_16",
-            "health": 70.0,
+            "health": 60.0,
             "armor": 3.0,
             "attackDamage": 6.0,
             "attackKind": "MELEE",
@@ -501,7 +501,7 @@
           },
           {
             "id": "piglin_ranged_16",
-            "health": 50.0,
+            "health": 45.0,
             "armor": 3.0,
             "attackDamage": 5.0,
             "attackKind": "RANGED",
@@ -573,7 +573,7 @@
         "default": [
           {
             "id": "magma_cube_tank_18",
-            "health": 135.0,
+            "health": 120.0,
             "armor": 14.0,
             "attackDamage": 5.0,
             "attackKind": "MELEE",
@@ -591,7 +591,7 @@
           },
           {
             "id": "wither_skeleton_rush_18",
-            "health": 52.0,
+            "health": 45.0,
             "armor": 7.0,
             "attackDamage": 7.0,
             "attackKind": "MELEE",
@@ -609,7 +609,7 @@
           },
           {
             "id": "piglin_artillery_18",
-            "health": 36.0,
+            "health": 30.0,
             "armor": 4.0,
             "attackDamage": 9.0,
             "attackKind": "RANGED",

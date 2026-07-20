@@ -32,10 +32,10 @@
       "incomingDamageBonus": 0.25
     },
     "strength_in_numbers": {
-      "damageBonusPerTower": 0.02
+      "damageBonusPerTower": 0.015
     },
     "diversity": {
-      "damageBonusPerType": 0.05
+      "damageBonusPerType": 0.03
     },
     "supply_depot": {
       "towerLimitBonus": 4.0
