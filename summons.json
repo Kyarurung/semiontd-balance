@@ -931,7 +931,7 @@
       "abilityValues": {
         "cooldownTicks": 80.0,
         "bonusDamage": 15.0,
-        "progressThreshold": 0.7
+        "progressThreshold": 0.0
       }
     },
     "polar_bear": {
@@ -1162,7 +1162,7 @@
       "abilityValues": {
         "cooldownTicks": 80.0,
         "bonusDamage": 25.0,
-        "progressThreshold": 0.65
+        "progressThreshold": 0.0
       }
     },
     "shulker": {
@@ -1233,7 +1233,7 @@
       "abilityValues": {
         "cooldownTicks": 90.0,
         "bonusDamage": 30.0,
-        "progressThreshold": 0.75
+        "progressThreshold": 0.0
       }
     },
     "zoglin": {
@@ -1297,7 +1297,7 @@
       "abilityValues": {
         "cooldownTicks": 80.0,
         "bonusDamage": 50.0,
-        "progressThreshold": 0.7
+        "progressThreshold": 0.0
       }
     },
     "evoker": {
@@ -1403,12 +1403,12 @@
         "CONDITIONAL"
       ],
       "description": [
-        "방어 대상에게 100 고정 피해를 줍니다. (2초 쿨타임)"
+        "방어 대상에게 100 고정 피해를 줍니다. (3초 쿨타임)"
       ],
       "abilityValues": {
-        "cooldownTicks": 40.0,
+        "cooldownTicks": 60.0,
         "bonusDamage": 100.0,
-        "progressThreshold": 0.5
+        "progressThreshold": 0.0
       }
     }
   }
