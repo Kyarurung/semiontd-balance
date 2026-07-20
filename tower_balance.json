@@ -2026,9 +2026,9 @@
     },
     "buffs": {
       "villager_adv_villager_splash_t1": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 0.001,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.0075,
         "reputationDamageReductionPerPoint": 0.002,
         "rangedDamagePerExperience": 0.01,
         "rangedAttackSpeedPerExperience": 0.005,
@@ -2040,9 +2040,9 @@
         "rangedAttackSpeedPerExperienceInterval": 1.0
       },
       "villager_adv_villager_splash_t2": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 7.5E-4,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.0075,
         "reputationDamageReductionPerPoint": 5.0E-4,
         "rangedDamagePerExperience": 0.015,
         "rangedAttackSpeedPerExperience": 0.02,
@@ -2068,9 +2068,9 @@
         "rangedAttackSpeedPerExperienceInterval": 1.0
       },
       "villager_adv_t1_golem_tower": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 0.0025,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.001,
         "reputationDamageReductionPerPoint": 0.001,
         "golemHealthPerExperience": 0.005,
         "golemDamageReductionPerExperience": 0.001,
@@ -2082,9 +2082,9 @@
         "golemDamageReductionPerExperienceInterval": 1.0
       },
       "villager_adv_t2_golem_tower": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 0.0025,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.0015,
         "reputationDamageReductionPerPoint": 5.0E-4,
         "golemHealthPerExperience": 0.0075,
         "golemDamageReductionPerExperience": 0.001,
@@ -2096,9 +2096,9 @@
         "golemDamageReductionPerExperienceInterval": 1.0
       },
       "villager_adv_t3_golem_tower": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 0.0025,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.00175,
         "reputationDamageReductionPerPoint": 0.001,
         "golemHealthPerExperience": 0.001,
         "golemDamageReductionPerExperience": 0.001,
@@ -2110,9 +2110,9 @@
         "golemDamageReductionPerExperienceInterval": 1.0
       },
       "villager_adv_t1_allay_tower": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 0.0025,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.0075,
         "reputationDamageReductionPerPoint": 0.0025,
         "allayHealAmountPerExperience": 0.005,
         "allayIntervalReductionPerExperience": 0.0025,
@@ -2124,9 +2124,9 @@
         "allayIntervalReductionPerExperienceInterval": 1.0
       },
       "villager_adv_t2_allay_tower": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 0.0025,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.0075,
         "reputationDamageReductionPerPoint": 0.0025,
         "allayHealAmountPerExperience": 0.006,
         "allayIntervalReductionPerExperience": 0.003,
@@ -2138,9 +2138,9 @@
         "allayIntervalReductionPerExperienceInterval": 1.0
       },
       "villager_adv_t2_weapon_smith_tower": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 0.0025,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.0075,
         "reputationDamageReductionPerPoint": 0.0025,
         "allayIntervalReductionPerExperience": 0.003,
         "reputationDamagePerPointInterval": 1.0,
@@ -2176,9 +2176,9 @@
         "allayIntervalReductionPerExperienceInterval": 1.0
       },
       "villager_adv_t1_cat_tower": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 0.0025,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.0075,
         "reputationDamageReductionPerPoint": 0.0025,
         "catDamagePerExperience": 0.01,
         "catAttackSpeedPerExperience": 0.005,
@@ -2192,9 +2192,9 @@
         "catAttackSpeedPerExperienceInterval": 1.0
       },
       "villager_adv_t2_anti_tanker_cat_tower": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 0.0025,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.0075,
         "reputationDamageReductionPerPoint": 0.0025,
         "catDamagePerExperience": 0.015,
         "catAttackSpeedPerExperience": 0.002,
@@ -2208,9 +2208,9 @@
         "catIncomeDamagePerExperienceInterval": 1.0
       },
       "villager_adv_t2_lane_clear_cat_tower": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 0.0025,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.0075,
         "reputationDamageReductionPerPoint": 0.0025,
         "catDamagePerExperience": 0.015,
         "catAttackSpeedPerExperience": 0.0025,
@@ -2224,9 +2224,9 @@
         "catWaveDamagePerExperienceInterval": 1.0
       },
       "villager_adv_t3_anti_tanker_cat_tower": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 0.0025,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.0075,
         "reputationDamageReductionPerPoint": 0.001,
         "catDamagePerExperience": 0.02,
         "catAttackSpeedPerExperience": 0.00225,
@@ -2240,9 +2240,9 @@
         "catIncomeDamagePerExperienceInterval": 1.0
       },
       "villager_adv_t3_lane_clear_cat_tower": {
-        "reputationDamagePerPoint": 0.01,
-        "reputationAttackSpeedPerPoint": 0.0025,
-        "reputationHealthPerPoint": 0.01,
+        "reputationDamagePerPoint": 0.005,
+        "reputationAttackSpeedPerPoint": 0.00075,
+        "reputationHealthPerPoint": 0.0075,
         "reputationDamageReductionPerPoint": 0.0025,
         "catDamagePerExperience": 0.015,
         "catAttackSpeedPerExperience": 0.001,
