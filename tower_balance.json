@@ -931,7 +931,7 @@
     "base_ender_dragon": {
       "mineralCost": 0,
       "maxHealth": 225.0,
-      "range": 5.0,
+      "range": 8.0,
       "damage": 10.0,
       "attackIntervalTicks": 15,
       "aggroPriority": 100
