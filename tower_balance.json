@@ -1066,10 +1066,10 @@
     "nether_blaze_t2->nether_ghast_t3": 220,
     "nether_skeleton_t1->nether_wither_skeleton_t2": 105,
     "nether_wither_skeleton_t2->nether_wither_t3": 200,
-    "t1_endermite_tower->t2_enderman_tower": 125,
-    "t2_enderman_tower->t3_end_crystal_tower": 200,
-    "t1_shulker_tower->t2_shulker_tower": 125,
-    "t2_shulker_tower->t3_shulker_tower": 200
+    "t1_endermite_tower->t2_enderman_tower": 100,
+    "t2_enderman_tower->t3_end_crystal_tower": 180,
+    "t1_shulker_tower->t2_shulker_tower": 100,
+    "t2_shulker_tower->t3_shulker_tower": 180
   },
   "abilities": {
     "villager_splash_t2": {
@@ -2065,16 +2065,16 @@
       "damageReduction": 0.5
     },
     "ender_global": {
-      "dragonEvolutionMaxHealth": 2000.0,
+      "dragonEvolutionMaxHealth": 1500.0,
       "absorptionDurationTicks": 200.0,
       "roundHealthRatio": 1.0,
       "roundDamageRatio": 1.0,
       "roundStatBonusCapRatio": 0.5,
-      "permanentHealthRatio": 0.05,
+      "permanentHealthRatio": 0.07,
       "permanentDamageRatio": 0.05,
-      "permanentDamageBonusCap": 60.0,
-      "dragonAttackRangeBonus": 2.0,
-      "dragonDamageBonus": 0.25,
+      "permanentDamageBonusCap": 150.0,
+      "dragonAttackRangeBonus": 3.0,
+      "dragonDamageBonus": 0.5,
       "endCrystalAttackIntervalEvery": 10.0,
       "attackIntervalReductionPerStep": 1.0,
       "shulkerLifeStealEvery": 10.0,
@@ -2082,12 +2082,12 @@
       "lifeStealCap": 0.3,
       "endCrystalSplashEvery": 5.0,
       "splashRadiusPerStep": 0.25,
-      "splashRadiusCap": 5.0,
+      "splashRadiusCap": 8.0,
       "splashDamageRatio": 1.0,
-      "shulkerReductionEvery": 20.0,
+      "shulkerReductionEvery": 10.0,
       "damageReductionPerStep": 0.025,
       "damageReductionCap": 0.25,
-      "maxAttackIntervalReductionTicks": 15.0,
+      "maxAttackIntervalReductionTicks": 8.0,
       "minimumAttackIntervalTicks": 5.0
     }
   },
