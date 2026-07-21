@@ -1066,10 +1066,10 @@
     "nether_blaze_t2->nether_ghast_t3": 220,
     "nether_skeleton_t1->nether_wither_skeleton_t2": 105,
     "nether_wither_skeleton_t2->nether_wither_t3": 200,
-    "t1_endermite_tower->t2_enderman_tower": 100,
-    "t2_enderman_tower->t3_end_crystal_tower": 180,
-    "t1_shulker_tower->t2_shulker_tower": 100,
-    "t2_shulker_tower->t3_shulker_tower": 180
+    "t1_endermite_tower->t2_enderman_tower": 90,
+    "t2_enderman_tower->t3_end_crystal_tower": 140,
+    "t1_shulker_tower->t2_shulker_tower": 90,
+    "t2_shulker_tower->t3_shulker_tower": 140
   },
   "abilities": {
     "villager_splash_t2": {
@@ -2085,8 +2085,8 @@
       "splashRadiusCap": 8.0,
       "splashDamageRatio": 1.0,
       "shulkerReductionEvery": 10.0,
-      "damageReductionPerStep": 0.025,
-      "damageReductionCap": 0.25,
+      "damageReductionPerStep": 0.05,
+      "damageReductionCap": 0.4,
       "maxAttackIntervalReductionTicks": 8.0,
       "minimumAttackIntervalTicks": 5.0
     }
