@@ -1703,7 +1703,7 @@
       "waveLevel2SplashRadius": 1.25,
       "waveLevel2SplashDamageRatio": 0.5,
       "waveLevel3SplashRadius": 1.25,
-      "waveLevel3SplashDamageRatio": 1,
+      "waveLevel3SplashDamageRatio": 1.0,
       "wavePulseEveryAttacks": 2.0,
       "wavePulseRadius": 1.5,
       "wavePulseDamageRatio": 1.75
@@ -2211,7 +2211,6 @@
       "maxAttackIntervalReductionTicks": 10.0,
       "minimumAttackIntervalTicks": 5.0,
       "endCrystalAttackRangeEvery": 50.0,
-      "attackRangePerStep": 0.5,
       "attackRangeCap": 3.0,
       "endCrystalSplashThreshold1": 15.0,
       "endCrystalSplashThreshold2": 60.0,
@@ -2230,7 +2229,10 @@
       "regenerationCap": 10.0,
       "regenerationIntervalTicks": 20.0,
       "dragonFinalDamageBonus": 0.3,
-      "dragonIncomeDebuffResistance": 0.1
+      "dragonIncomeDebuffResistance": 0.1,
+      "dragonAttackRangeBonus": 2.0,
+      "dragonDamageBonus": 0.25,
+      "attackRangePerStep": 0.5
     },
     "ocean_global": {
       "initialWater": 50.0,
@@ -2349,7 +2351,7 @@
   },
   "villagerAdv": {
     "experienceMax": 1557.0,
-    "experiencePerTower": 4,
+    "experiencePerTower": 4.0,
     "experiencePerTier": 1.5,
     "reputationMax": 100.0,
     "reputationGainRoundMultiplier": 0.75,
