@@ -930,8 +930,8 @@
     },
     "base_ender_dragon": {
       "mineralCost": 0,
-      "maxHealth": 200.0,
-      "range": 5.0,
+      "maxHealth": 225.0,
+      "range": 8.0,
       "damage": 10.0,
       "attackIntervalTicks": 15,
       "aggroPriority": 100
@@ -1066,10 +1066,10 @@
     "nether_blaze_t2->nether_ghast_t3": 220,
     "nether_skeleton_t1->nether_wither_skeleton_t2": 105,
     "nether_wither_skeleton_t2->nether_wither_t3": 200,
-    "t1_endermite_tower->t2_enderman_tower": 125,
-    "t2_enderman_tower->t3_end_crystal_tower": 200,
-    "t1_shulker_tower->t2_shulker_tower": 125,
-    "t2_shulker_tower->t3_shulker_tower": 200
+    "t1_endermite_tower->t2_enderman_tower": 90,
+    "t2_enderman_tower->t3_end_crystal_tower": 140,
+    "t1_shulker_tower->t2_shulker_tower": 90,
+    "t2_shulker_tower->t3_shulker_tower": 140
   },
   "abilities": {
     "villager_splash_t2": {
@@ -1488,7 +1488,7 @@
     "t1_resonance_focus_moobloom": {
       "linkRange": 1.0,
       "maxLinksPerTower": 6.0,
-      "maxResonanceLevel": 3.0,
+      "maxResonanceLevel": 1.0,
       "level1RequiredLinks": 1.0,
       "level2RequiredLinks": 3.0,
       "level3RequiredLinks": 5.0,
@@ -1503,7 +1503,7 @@
     "t2_resonance_focus_moobloom": {
       "linkRange": 1.0,
       "maxLinksPerTower": 6.0,
-      "maxResonanceLevel": 3.0,
+      "maxResonanceLevel": 2.0,
       "level1RequiredLinks": 1.0,
       "level2RequiredLinks": 3.0,
       "level3RequiredLinks": 5.0,
@@ -1533,7 +1533,7 @@
     "t1_resonance_wave_moobloom": {
       "linkRange": 1.0,
       "maxLinksPerTower": 6.0,
-      "maxResonanceLevel": 3.0,
+      "maxResonanceLevel": 1.0,
       "level1RequiredLinks": 1.0,
       "level2RequiredLinks": 3.0,
       "level3RequiredLinks": 5.0,
@@ -1549,7 +1549,7 @@
     "t2_resonance_wave_moobloom": {
       "linkRange": 1.0,
       "maxLinksPerTower": 6.0,
-      "maxResonanceLevel": 3.0,
+      "maxResonanceLevel": 2.0,
       "level1RequiredLinks": 1.0,
       "level2RequiredLinks": 3.0,
       "level3RequiredLinks": 5.0,
@@ -1581,7 +1581,7 @@
     "t1_resonance_frost_moobloom": {
       "linkRange": 1.0,
       "maxLinksPerTower": 6.0,
-      "maxResonanceLevel": 3.0,
+      "maxResonanceLevel": 1.0,
       "level1RequiredLinks": 1.0,
       "level2RequiredLinks": 3.0,
       "level3RequiredLinks": 5.0,
@@ -1609,7 +1609,7 @@
     "t2_resonance_frost_moobloom": {
       "linkRange": 1.0,
       "maxLinksPerTower": 6.0,
-      "maxResonanceLevel": 3.0,
+      "maxResonanceLevel": 2.0,
       "level1RequiredLinks": 1.0,
       "level2RequiredLinks": 3.0,
       "level3RequiredLinks": 5.0,
@@ -1665,7 +1665,7 @@
     "t1_resonance_amplify_moobloom": {
       "linkRange": 1.0,
       "maxLinksPerTower": 6.0,
-      "maxResonanceLevel": 3.0,
+      "maxResonanceLevel": 1.0,
       "level1RequiredLinks": 1.0,
       "level2RequiredLinks": 3.0,
       "level3RequiredLinks": 5.0,
@@ -1684,7 +1684,7 @@
     "t2_resonance_amplify_moobloom": {
       "linkRange": 1.0,
       "maxLinksPerTower": 6.0,
-      "maxResonanceLevel": 3.0,
+      "maxResonanceLevel": 2.0,
       "level1RequiredLinks": 1.0,
       "level2RequiredLinks": 3.0,
       "level3RequiredLinks": 5.0,
@@ -2065,29 +2065,29 @@
       "damageReduction": 0.5
     },
     "ender_global": {
-      "dragonEvolutionMaxHealth": 2000.0,
+      "dragonEvolutionMaxHealth": 1800.0,
       "absorptionDurationTicks": 200.0,
       "roundHealthRatio": 1.0,
       "roundDamageRatio": 1.0,
       "roundStatBonusCapRatio": 0.5,
-      "permanentHealthRatio": 0.05,
-      "permanentDamageRatio": 0.05,
-      "permanentDamageBonusCap": 60.0,
-      "dragonAttackRangeBonus": 2.0,
-      "dragonDamageBonus": 0.25,
+      "permanentHealthRatio": 0.06,
+      "permanentDamageRatio": 0.04,
+      "permanentDamageBonusCap": 300.0,
+      "dragonAttackRangeBonus": 3.0,
+      "dragonDamageBonus": 0.4,
       "endCrystalAttackIntervalEvery": 10.0,
-      "attackIntervalReductionPerStep": 1.0,
+      "attackIntervalReductionPerStep": 2.0,
       "shulkerLifeStealEvery": 10.0,
-      "lifeStealPerStep": 0.01,
-      "lifeStealCap": 0.3,
+      "lifeStealPerStep": 0.02,
+      "lifeStealCap": 0.16,
       "endCrystalSplashEvery": 5.0,
-      "splashRadiusPerStep": 0.25,
-      "splashRadiusCap": 5.0,
-      "splashDamageRatio": 1.0,
-      "shulkerReductionEvery": 20.0,
-      "damageReductionPerStep": 0.025,
+      "splashRadiusPerStep": 0.5,
+      "splashRadiusCap": 4.0,
+      "splashDamageRatio": 0.6,
+      "shulkerReductionEvery": 10.0,
+      "damageReductionPerStep": 0.05,
       "damageReductionCap": 0.25,
-      "maxAttackIntervalReductionTicks": 15.0,
+      "maxAttackIntervalReductionTicks": 8.0,
       "minimumAttackIntervalTicks": 5.0
     }
   },
