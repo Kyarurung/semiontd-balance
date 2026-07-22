@@ -2196,7 +2196,7 @@
     },
     "end_global": {
       "dragonAttackRangeBonus": 2.0,
-      "dragonDamageBonus": 0.2,
+      "dragonDamageBonus": 0.25,
       "splashRadiusCap": 4.0,
       "permanentHealthRatio": 0.05,
       "absorptionDurationTicks": 200.0,
