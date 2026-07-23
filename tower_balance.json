@@ -986,27 +986,27 @@
     },
     "ocean_water_t1": {
       "mineralCost": 25,
-      "maxHealth": 70.0,
+      "maxHealth": 5.0,
       "range": 0.0,
       "damage": 0.0,
       "attackIntervalTicks": 20,
-      "aggroPriority": -10
+      "aggroPriority": -100
     },
     "ocean_water_t2": {
       "mineralCost": 60,
-      "maxHealth": 110.0,
+      "maxHealth": 5.0,
       "range": 0.0,
       "damage": 0.0,
       "attackIntervalTicks": 20,
-      "aggroPriority": -10
+      "aggroPriority": -100
     },
     "ocean_water_t3": {
       "mineralCost": 150,
-      "maxHealth": 180.0,
+      "maxHealth": 10.0,
       "range": 0.0,
       "damage": 0.0,
       "attackIntervalTicks": 20,
-      "aggroPriority": -10
+      "aggroPriority": -100
     },
     "ocean_pufferfish_t1": {
       "mineralCost": 40,
@@ -1103,6 +1103,30 @@
       "damage": 40.0,
       "attackIntervalTicks": 12,
       "aggroPriority": 0
+    },
+    "ocean_squid_t1": {
+      "mineralCost": 50,
+      "maxHealth": 60.0,
+      "range": 0.0,
+      "damage": 0.0,
+      "attackIntervalTicks": 100,
+      "aggroPriority": -5
+    },
+    "ocean_glow_squid_t2": {
+      "mineralCost": 120,
+      "maxHealth": 90.0,
+      "range": 0.0,
+      "damage": 0.0,
+      "attackIntervalTicks": 90,
+      "aggroPriority": -5
+    },
+    "ocean_dolphin_t3": {
+      "mineralCost": 210,
+      "maxHealth": 140.0,
+      "range": 0.0,
+      "damage": 0.0,
+      "attackIntervalTicks": 80,
+      "aggroPriority": -5
     }
   },
   "upgradeCosts": {
@@ -1199,7 +1223,9 @@
     "ocean_salmon_t1->ocean_salmon_t2": 100,
     "ocean_salmon_t2->ocean_salmon_t3": 200,
     "ocean_cod_t1->ocean_cod_t2": 100,
-    "ocean_cod_t2->ocean_cod_t3": 210
+    "ocean_cod_t2->ocean_cod_t3": 210,
+    "ocean_squid_t1->ocean_glow_squid_t2": 120,
+    "ocean_glow_squid_t2->ocean_dolphin_t3": 210
   },
   "abilities": {
     "villager_splash_t2": {
@@ -2307,7 +2333,7 @@
     "ocean_tropical_fish_t3": {
       "abilityWaterCost": 20.0,
       "supportRadius": 2.0,
-      "damageBonus": 0.18,
+      "damageBonus": 0.3,
       "attackSpeedBonus": 0.22,
       "buffDurationTicks": 100.0,
       "supportIntervalTicks": 80.0
@@ -2334,19 +2360,77 @@
       "splashDamageRatio": 0.8
     },
     "ocean_cod_t1": {
-      "waterDamageCoefficient": 0.5,
+      "waterDamageCoefficient": 0.75,
       "attackWaterCost": 2.0,
       "incomeWaterCost": 1.0
     },
     "ocean_cod_t2": {
-      "waterDamageCoefficient": 0.75,
+      "waterDamageCoefficient": 1.25,
       "attackWaterCost": 3.0,
       "incomeWaterCost": 1.0
     },
     "ocean_cod_t3": {
-      "waterDamageCoefficient": 1.0,
-      "attackWaterCost": 3.0,
+      "waterDamageCoefficient": 2.0,
+      "attackWaterCost": 5.0,
       "incomeWaterCost": 1.0
+    },
+    "ender_global": {
+      "dragonEvolutionMaxHealth": 2000.0,
+      "roundAbsorptionAttackIntervalEvery": 1.0,
+      "transferHealingPerTower": 1.0,
+      "regenerationCap": 10.0,
+      "roundAbsorptionAttackIntervalReductionTicks": 1.0,
+      "attackIntervalReductionPerStep": 1.0,
+      "shulkerRegenerationEvery": 30.0,
+      "attackRangeCap": 3.0,
+      "regenerationPerStep": 1.0,
+      "splashRadiusCap": 4.0,
+      "minimumAttackIntervalTicks": 5.0,
+      "damageReductionPerStep": 0.04,
+      "shulkerReductionEvery": 60.0,
+      "transferHealingIntervalTicks": 20.0,
+      "endCrystalSplashThreshold1": 15.0,
+      "endCrystalSplashThreshold2": 60.0,
+      "regenerationIntervalTicks": 20.0,
+      "absorptionDurationTicks": 200.0,
+      "endCrystalSplashThreshold3": 150.0,
+      "endCrystalSplashThreshold4": 300.0,
+      "permanentDamageRatio": 0.05,
+      "endCrystalAttackIntervalEvery": 30.0,
+      "damageReductionCap": 0.2,
+      "endCrystalAttackRangeEvery": 50.0,
+      "dragonIncomeDebuffResistance": 0.1,
+      "attackRangePerStep": 0.5,
+      "dragonDamageBonus": 0.25,
+      "shulkerLifeStealEvery": 15.0,
+      "permanentHealthRatio": 0.05,
+      "splashDamageRatio": 0.6,
+      "dragonAttackRangeBonus": 2.0,
+      "roundDamageRatio": 0.5,
+      "lifeStealCap": 0.2,
+      "dragonFinalDamageBonus": 0.3,
+      "maxAttackIntervalReductionTicks": 10.0,
+      "roundHealthRatio": 0.5,
+      "lifeStealPerStep": 0.01,
+      "absorptionHealAmount": 50.0
+    },
+    "ocean_squid_t1": {
+      "healAmount": 15.0,
+      "healIntervalTicks": 100.0,
+      "abilityWaterCost": 6.0,
+      "healRadius": 2.0
+    },
+    "ocean_glow_squid_t2": {
+      "healAmount": 40.0,
+      "healIntervalTicks": 90.0,
+      "abilityWaterCost": 12.0,
+      "healRadius": 2.5
+    },
+    "ocean_dolphin_t3": {
+      "healAmount": 80.0,
+      "healIntervalTicks": 80.0,
+      "abilityWaterCost": 20.0,
+      "healRadius": 3.0
     }
   },
   "illusionCloneQueue": {
