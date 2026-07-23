@@ -2233,7 +2233,7 @@
       "maxAttackIntervalReductionTicks": 10.0,
       "permanentDamageRatio": 0.05,
       "roundHealthRatio": 0.4,
-      "shulkerLifeStealEvery": 15.0,
+      "shulkerLifeStealEvery": 20.0,
       "shulkerReductionEvery": 60.0,
       "lifeStealPerStep": 0.01,
       "minimumAttackIntervalTicks": 5.0,
