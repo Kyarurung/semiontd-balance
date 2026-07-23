@@ -2262,51 +2262,51 @@
       "attackRangePerStep": 0.5
     },
     "ocean_global": {
-      "initialWater": 50.0,
-      "waterScale": 100.0,
+      "initialWater": 100.0,
+      "waterScale": 300.0,
       "incomeCoefficientMultiplier": 2.0,
       "empoweredAbilityWaterThreshold": 100.0,
-      "empoweredAbilityWaterCostMultiplier": 2.0,
+      "empoweredAbilityWaterCostMultiplier": 3.0,
       "empoweredAbilityEffectMultiplier": 1.5,
       "dehydratedDamageMultiplier": 0.3,
       "dehydratedAttackSpeedReduction": 0.6,
-      "dehydrationMaxHealthDamagePerSecond": 0.02
+      "dehydrationMaxHealthDamagePerSecond": 0.2
     },
     "ocean_water_t1": {
-      "supplyRadius": 2.5,
+      "supplyRadius": 2.0,
       "waveStartWater": 7.0,
-      "waterPerSupply": 1.0,
+      "waterPerSupply": 1,
       "supplyIntervalTicks": 20.0
     },
     "ocean_water_t2": {
-      "supplyRadius": 2.5,
+      "supplyRadius": 2.0,
       "waveStartWater": 13.0,
-      "waterPerSupply": 1.75,
+      "waterPerSupply": 1.5,
       "supplyIntervalTicks": 20.0
     },
     "ocean_water_t3": {
       "supplyRadius": 2.5,
       "waveStartWater": 18.0,
-      "waterPerSupply": 2.5,
+      "waterPerSupply": 1.8,
       "supplyIntervalTicks": 20.0
     },
     "ocean_pufferfish_t1": {
       "waterDamageCoefficient": 0.5,
       "attackWaterCost": 2.0,
       "damageReduction": 0.05,
-      "transferWaterCost": 2.0,
-      "transferRadius": 2.0,
+      "transferWaterCost": 4.0,
+      "transferRadius": 4.0,
       "transferCap": 24.0,
-      "transferCooldownTicks": 50.0
+      "transferCooldownTicks": 100.0
     },
     "ocean_guardian_t2": {
       "waterDamageCoefficient": 0.75,
       "attackWaterCost": 3.0,
       "damageReduction": 0.15,
       "transferWaterCost": 4.0,
-      "transferRadius": 2.0,
+      "transferRadius": 4.0,
       "transferCap": 50.0,
-      "transferCooldownTicks": 50.0
+      "transferCooldownTicks": 100.0
     },
     "ocean_elder_guardian_t3": {
       "waterDamageCoefficient": 1.0,
@@ -2315,7 +2315,7 @@
       "transferWaterCost": 6.0,
       "transferRadius": 2.0,
       "transferCap": 90.0,
-      "transferCooldownTicks": 50.0
+      "transferCooldownTicks": 100.0
     },
     "ocean_tropical_fish_t1": {
       "abilityWaterCost": 8.0,
@@ -2334,7 +2334,7 @@
       "supportIntervalTicks": 90.0
     },
     "ocean_tropical_fish_t3": {
-      "abilityWaterCost": 30.0,
+      "abilityWaterCost": 40.0,
       "supportRadius": 2.0,
       "damageBonus": 0.3,
       "attackSpeedBonus": 0.22,
@@ -2342,23 +2342,23 @@
       "supportIntervalTicks": 80.0
     },
     "ocean_salmon_t1": {
-      "waterDamageCoefficient": 0.5,
+      "waterDamageCoefficient": 0.4,
       "attackWaterCost": 1.0,
-      "splashWaterCost": 1.0,
+      "splashWaterCost": 2.0,
       "splashRadius": 0.75,
       "splashDamageRatio": 0.4
     },
     "ocean_salmon_t2": {
-      "waterDamageCoefficient": 0.75,
-      "attackWaterCost": 1.5,
-      "splashWaterCost": 2.0,
+      "waterDamageCoefficient": 0.6,
+      "attackWaterCost": 2,
+      "splashWaterCost": 3.0,
       "splashRadius": 1.25,
       "splashDamageRatio": 0.45
     },
     "ocean_salmon_t3": {
-      "waterDamageCoefficient": 1.0,
-      "attackWaterCost": 2.0,
-      "splashWaterCost": 3.0,
+      "waterDamageCoefficient": 0.85,
+      "attackWaterCost": 3.0,
+      "splashWaterCost": 4.0,
       "splashRadius": 1.5,
       "splashDamageRatio": 0.5
     },
@@ -2370,12 +2370,12 @@
     "ocean_cod_t2": {
       "waterDamageCoefficient": 0.9,
       "attackWaterCost": 3.0,
-      "incomeWaterCost": 1.0
+      "incomeWaterCost": 4.0
     },
     "ocean_cod_t3": {
       "waterDamageCoefficient": 1.25,
-      "attackWaterCost": 5.0,
-      "incomeWaterCost": 2.0
+      "attackWaterCost": 4.0,
+      "incomeWaterCost": 5.0
     },
     "ender_global": {
       "dragonEvolutionMaxHealth": 2000.0,
