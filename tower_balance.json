@@ -2245,7 +2245,7 @@
       "damageReductionCap": 0.2,
       "endCrystalAttackIntervalEvery": 30.0,
       "endCrystalAttackRangeEvery": 60.0,
-      "shulkerRegenerationEvery": 20.0,
+      "shulkerRegenerationEvery": 30.0,
       "regenerationCap": 10.0,
       "regenerationIntervalTicks": 20.0,
       "dragonIncomeDebuffResistance": 0.1,
