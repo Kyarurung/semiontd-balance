@@ -43,6 +43,32 @@
     "transcendence": {
       "damageBonus": 0.35,
       "activationDelaySeconds": 10.0
+    },
+    "weekly_holiday_pay": {
+      "intervalSeconds": 180.0,
+      "flatDiamond": 10.0,
+      "incomeRatio": 0.16
+    },
+    "ruthless": {
+      "damageBonus": 0.25
+    },
+    "ignite": {
+      "durationSeconds": 4.0,
+      "tickIntervalSeconds": 1.0,
+      "flatDamagePerTick": 2.0,
+      "attackDamageRatioPerRound": 0.0075
+    },
+    "giant_slayer": {
+      "currentHealthThreshold": 800.0,
+      "damageBonus": 0.2
+    },
+    "finishing_blow": {
+      "healthRatioThreshold": 0.4,
+      "damageBonus": 0.2
+    },
+    "performance_bonus": {
+      "teamIncomeRatio": 0.15,
+      "firstPayoutRound": 2.0
     }
   }
 }
