@@ -67,7 +67,7 @@
       "damageBonus": 0.2
     },
     "performance_bonus": {
-      "teamIncomeRatio": 0.15,
+      "teamIncomeRatio": 0.12,
       "firstPayoutRound": 2.0
     }
   }
