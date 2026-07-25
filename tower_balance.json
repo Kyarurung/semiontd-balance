@@ -2271,7 +2271,7 @@
       "waterScale": 250.0,
       "incomeCoefficientMultiplier": 3.0,
       "empoweredAbilityWaterThreshold": 100.0,
-      "empoweredAbilityWaterCostMultiplier": 2.0,
+      "empoweredAbilityWaterCostMultiplier": 3.0,
       "empoweredAbilityEffectMultiplier": 1.5,
       "dehydratedDamageMultiplier": 0.3,
       "dehydratedAttackSpeedReduction": 0.6,
@@ -2286,13 +2286,13 @@
     "ocean_water_t2": {
       "supplyRadius": 3.5,
       "waveStartWater": 13.0,
-      "waterPerSupply": 1.8,
+      "waterPerSupply": 1.75,
       "supplyIntervalTicks": 20.0
     },
     "ocean_water_t3": {
       "supplyRadius": 3.5,
       "waveStartWater": 18.0,
-      "waterPerSupply": 2.5,
+      "waterPerSupply": 2.25,
       "supplyIntervalTicks": 20.0
     },
     "ocean_pufferfish_t1": {
@@ -2301,7 +2301,7 @@
       "damageReduction": 0.1,
       "transferWaterCost": 4.0,
       "transferRadius": 4.0,
-      "transferCap": 24.0,
+      "transferCap": 20.0,
       "transferCooldownTicks": 100.0
     },
     "ocean_guardian_t2": {
@@ -2310,7 +2310,7 @@
       "damageReduction": 0.2,
       "transferWaterCost": 4.0,
       "transferRadius": 4.0,
-      "transferCap": 50.0,
+      "transferCap": 30.0,
       "transferCooldownTicks": 100.0
     },
     "ocean_elder_guardian_t3": {
@@ -2319,7 +2319,7 @@
       "damageReduction": 0.35,
       "transferWaterCost": 6.0,
       "transferRadius": 4.0,
-      "transferCap": 90.0,
+      "transferCap": 45.0,
       "transferCooldownTicks": 100.0
     },
     "ocean_tropical_fish_t1": {
@@ -2384,19 +2384,19 @@
     },
     "ocean_squid_t1": {
       "healAmount": 15.0,
-      "healIntervalTicks": 90.0,
+      "healIntervalTicks": 100.0,
       "abilityWaterCost": 15.0,
       "healRadius": 2.0
     },
     "ocean_glow_squid_t2": {
       "healAmount": 35.0,
-      "healIntervalTicks": 70.0,
+      "healIntervalTicks": 80.0,
       "abilityWaterCost": 20.0,
       "healRadius": 2.5
     },
     "ocean_dolphin_t3": {
       "healAmount": 80.0,
-      "healIntervalTicks": 60.0,
+      "healIntervalTicks": 70.0,
       "abilityWaterCost": 30.0,
       "healRadius": 3.5
     }
