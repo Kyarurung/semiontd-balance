@@ -14,5 +14,6 @@
   "defenseContributionWeight": 0.4,
   "pressureContributionWeight": 0.25,
   "economyContributionWeight": 0.2,
-  "assistContributionWeight": 0.15
+  "assistContributionWeight": 0.15,
+  "perfectDefenseLossMultiplier": 0.75
 }

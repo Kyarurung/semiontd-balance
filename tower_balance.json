@@ -985,7 +985,7 @@
       "aggroPriority": 10
     },
     "ocean_water_t1": {
-      "mineralCost": 20,
+      "mineralCost": 35,
       "maxHealth": 5.0,
       "range": 0.0,
       "damage": 0.0,
@@ -2242,7 +2242,6 @@
       "maxAttackIntervalReductionTicks": 10.0,
       "minimumAttackIntervalTicks": 5.0,
       "endCrystalAttackRangeEvery": 60.0,
-      "attackRangePerStep": 0.5,
       "attackRangeCap": 3.0,
       "endCrystalSplashThreshold1": 15.0,
       "endCrystalSplashThreshold2": 60.0,
@@ -2264,12 +2263,16 @@
       "phantomBaseScale": 1.0,
       "phantomScaleHealthInterval": 100.0,
       "phantomScalePerInterval": 0.2,
-      "phantomScaleCap": 5.0
+      "phantomScaleCap": 5.0,
+      "attackRangePerStep": 0.5
     },
     "ocean_global": {
       "initialWater": 100.0,
       "waterScale": 250.0,
-      "incomeCoefficientMultiplier": 3.0,
+      "waterSoftCap": 1000.0,
+      "waterSupplyStopThreshold": 2500.0,
+      "waterSupplyStackDecay": 0.6,
+      "incomeCoefficientMultiplier": 1.5,
       "empoweredAbilityWaterThreshold": 100.0,
       "empoweredAbilityWaterCostMultiplier": 3.0,
       "empoweredAbilityEffectMultiplier": 1.5,
