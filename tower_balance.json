@@ -2402,7 +2402,7 @@
     "ocean_elder_guardian_t3": {
       "waterDamageCoefficient": 1.25,
       "attackWaterCost": 5.0,
-      "damageReduction": 0.4,
+      "damageReduction": 0.3,
       "transferWaterCost": 6.0,
       "transferRadius": 6.5,
       "transferCap": 90.0,
