@@ -226,7 +226,7 @@
     },
     "t3_pig_tower": {
       "mineralCost": 300,
-      "maxHealth": 350.0,
+      "maxHealth": 400.0,
       "range": 2.0,
       "damage": 15.0,
       "attackIntervalTicks": 20,
@@ -234,11 +234,11 @@
     },
     "t4_pig_leader_tower": {
       "mineralCost": 350,
-      "maxHealth": 400.0,
+      "maxHealth": 450.0,
       "range": 2.0,
       "damage": 18.0,
       "attackIntervalTicks": 20,
-      "aggroPriority": -20
+      "aggroPriority": 40
     },
     "t1_wolf_tower": {
       "mineralCost": 50,
@@ -1437,7 +1437,7 @@
       "damageReduction": 0.3,
       "splashRadius": 1.0,
       "splashDamageRatio": 0.5,
-      "leaderAuraRadius": 4.0,
+      "leaderAuraRadius": 8.0,
       "leaderMaxHealthBonus": 0.15,
       "leaderDamageReductionBonus": 0.05
     },
@@ -1471,7 +1471,7 @@
       "splashDamageRatio": 0.75,
       "maxStackExtraIntervalReduction": 5.0,
       "maxStackDamageBonus": 5.0,
-      "leaderAuraRadius": 6.0,
+      "leaderAuraRadius": 8.0,
       "leaderAttackIntervalReductionTicks": 1.0,
       "leaderSplashDamageRatioBonus": 0.1
     },
@@ -2345,7 +2345,9 @@
       "phantomScaleHealthInterval": 100.0,
       "phantomScalePerInterval": 0.2,
       "phantomScaleCap": 5.0,
-      "attackRangePerStep": 0.5
+      "attackRangePerStep": 0.5,
+      "transferHealingIntervalTicks": 20.0,
+      "transferHealingPerTower": 1.0
     },
     "ocean_global": {
       "initialWater": 100.0,
@@ -2364,19 +2366,19 @@
     "ocean_water_t1": {
       "supplyRadius": 3.5,
       "waveStartWater": 7.0,
-      "waterPerSupply": 1.25,
+      "waterPerSupply": 1.5,
       "supplyIntervalTicks": 20.0
     },
     "ocean_water_t2": {
       "supplyRadius": 3.5,
       "waveStartWater": 13.0,
-      "waterPerSupply": 1.8,
+      "waterPerSupply": 2.5,
       "supplyIntervalTicks": 20.0
     },
     "ocean_water_t3": {
       "supplyRadius": 3.5,
       "waveStartWater": 18.0,
-      "waterPerSupply": 2.5,
+      "waterPerSupply": 3.2,
       "supplyIntervalTicks": 20.0
     },
     "ocean_pufferfish_t1": {
@@ -2447,7 +2449,7 @@
     "ocean_salmon_t3": {
       "waterDamageCoefficient": 2.5,
       "attackWaterCost": 3.0,
-      "splashWaterCost": 5.0,
+      "splashWaterCost": 3.0,
       "splashRadius": 1.5,
       "splashDamageRatio": 0.95
     },
@@ -2745,5 +2747,6 @@
         "catWaveDamagePerExperienceInterval": 1.0
       }
     }
-  }
+  },
+  "schemaVersion": 2
 }
