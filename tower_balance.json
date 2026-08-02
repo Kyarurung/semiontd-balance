@@ -1760,8 +1760,8 @@
       "level1RequiredLinks": 1.0,
       "level2RequiredLinks": 3.0,
       "level3RequiredLinks": 5.0,
-      "focusLevel1AttackSpeedBonus": 0.2,
-      "focusLevel2AttackSpeedBonus": 0.4,
+      "focusLevel1AttackSpeedBonus": 0.3,
+      "focusLevel2AttackSpeedBonus": 0.6,
       "focusLevel2DamageBonus": 0.4,
       "focusLevel3AttackSpeedBonus": 0.8,
       "focusLevel3DamageBonus": 0.8,
@@ -1814,7 +1814,7 @@
       "waveLevel3SplashDamageRatio": 1.0,
       "wavePulseEveryAttacks": 2.0,
       "wavePulseRadius": 1.5,
-      "wavePulseDamageRatio": 1.75
+      "wavePulseDamageRatio": 2.0
     },
     "t1_resonance_frost_moobloom": {
       "linkRange": 1.0,
@@ -1893,10 +1893,10 @@
       "frostLevel1AttackSpeedReductionMagnitude": 0.15,
       "frostLevel2AttackSpeedReductionMagnitude": 0.3,
       "frostLevel3AttackSpeedReductionMagnitude": 0.4,
-      "frostLevel2AuraDamageVsSlowedBonus": 0.35,
-      "frostLevel3AuraDamageVsSlowedBonus": 1.0,
+      "frostLevel2AuraDamageVsSlowedBonus": 0.5,
+      "frostLevel3AuraDamageVsSlowedBonus": 1.5,
       "frostAuraRange": 1.0,
-      "frostPulseAttackSpeedReductionMagnitude": 0.5,
+      "frostPulseAttackSpeedReductionMagnitude": 0.75,
       "frostLevel2DamageVsSlowedBonus": 0.15,
       "frostLevel3DamageVsSlowedBonus": 0.3
     },
@@ -1949,7 +1949,7 @@
       "bloomLevel2DamageReduction": 0.2,
       "bloomLevel2AuraAttackSpeedBonus": 0.25,
       "bloomLevel3DamageReduction": 0.4,
-      "bloomLevel3AuraAttackSpeedBonus": 0.35,
+      "bloomLevel3AuraAttackSpeedBonus": 0.5,
       "bloomAuraRange": 1.0,
       "bloomProtectEveryAttacks": 3.0,
       "bloomProtectRadius": 2.0,
