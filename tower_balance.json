@@ -1512,7 +1512,7 @@
       "maxDamageBonus": 0.75,
       "maxHealthBonus": 0.25,
       "roundIntervalReductionCap": 15.0,
-      "roundAbsorbDefenseThreshold": 5.0,
+      "roundAbsorbDefenseThreshold": 3.0,
       "lowHealthSacrificeThreshold": 0.4,
       "splashDamageRatio": 0.6,
       "damageBonusPerStack": 0.2,
