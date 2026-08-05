@@ -32,7 +32,7 @@
       "incomingDamageBonus": 0.25
     },
     "strength_in_numbers": {
-      "damageBonusPerTower": 0.0175
+      "damageBonusPerTower": 0.03
     },
     "diversity": {
       "damageBonusPerType": 0.03
@@ -45,7 +45,7 @@
       "activationDelaySeconds": 10.0
     },
     "weekly_holiday_pay": {
-      "intervalSeconds": 180.0,
+      "intervalSeconds": 150.0,
       "flatDiamond": 10.0,
       "incomeRatio": 0.16
     },
@@ -56,7 +56,7 @@
       "durationSeconds": 4.0,
       "tickIntervalSeconds": 1.0,
       "flatDamagePerTick": 2.0,
-      "attackDamageRatioPerRound": 0.0075
+      "attackDamageRatioPerRound": 0.015
     },
     "giant_slayer": {
       "currentHealthThreshold": 800.0,
@@ -67,7 +67,7 @@
       "damageBonus": 0.2
     },
     "performance_bonus": {
-      "teamIncomeRatio": 0.12,
+      "teamIncomeRatio": 0.16,
       "firstPayoutRound": 2.0
     }
   }
