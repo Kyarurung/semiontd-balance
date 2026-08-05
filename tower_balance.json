@@ -977,7 +977,7 @@
       "aggroPriority": 10
     },
     "t2_enderman_tower": {
-      "mineralCost": 80,
+      "mineralCost": 100,
       "maxHealth": 50.0,
       "range": 0.0,
       "damage": 15.0,
@@ -985,7 +985,7 @@
       "aggroPriority": 10
     },
     "t3_end_crystal_tower": {
-      "mineralCost": 130,
+      "mineralCost": 150,
       "maxHealth": 50.0,
       "range": 0.0,
       "damage": 20.0,
@@ -1001,7 +1001,7 @@
       "aggroPriority": 10
     },
     "t2_shulker_tower": {
-      "mineralCost": 80,
+      "mineralCost": 100,
       "maxHealth": 150.0,
       "range": 0.0,
       "damage": 5.0,
@@ -1009,7 +1009,7 @@
       "aggroPriority": 10
     },
     "t3_shulker_tower": {
-      "mineralCost": 130,
+      "mineralCost": 150,
       "maxHealth": 200.0,
       "range": 0.0,
       "damage": 5.0,
@@ -1246,10 +1246,10 @@
     "nether_blaze_t2->nether_ghast_t3": 220,
     "nether_skeleton_t1->nether_wither_skeleton_t2": 105,
     "nether_wither_skeleton_t2->nether_wither_t3": 200,
-    "t1_endermite_tower->t2_enderman_tower": 80,
-    "t2_enderman_tower->t3_end_crystal_tower": 130,
-    "t1_shulker_tower->t2_shulker_tower": 80,
-    "t2_shulker_tower->t3_shulker_tower": 130,
+    "t1_endermite_tower->t2_enderman_tower": 100,
+    "t2_enderman_tower->t3_end_crystal_tower": 150,
+    "t1_shulker_tower->t2_shulker_tower": 100,
+    "t2_shulker_tower->t3_shulker_tower": 150,
     "ocean_water_t1->ocean_water_t2": 60,
     "ocean_water_t2->ocean_water_t3": 150,
     "ocean_pufferfish_t1->ocean_guardian_t2": 100,
@@ -2320,7 +2320,7 @@
       "transferTicks": 200.0,
       "transferHeal": 30.0,
       "transferHealRatio": 0.05,
-      "damageCap": 250.0,
+      "damageCap": 300.0,
       "roundDamageRatio": 0.75,
       "permanentDamageRatio": 0.06,
       "roundHealthRatio": 0.5,
@@ -2331,7 +2331,7 @@
       "splash4": 300.0,
       "splashStep": 1.0,
       "splashCap": 5.0,
-      "splashDamageRatio": 0.6,
+      "splashDamageRatio": 0.66,
       "attackSpeedStacks": 30.0,
       "attackSpeedStep": 1.0,
       "attackSpeedCap": 10.0,
