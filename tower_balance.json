@@ -337,7 +337,7 @@
       "aggroPriority": 30
     },
     "t2_slave": {
-      "mineralCost": 130,
+      "mineralCost": 85,
       "maxHealth": 120.0,
       "range": 2.0,
       "damage": 8.0,
@@ -345,7 +345,7 @@
       "aggroPriority": 50
     },
     "t3_slave": {
-      "mineralCost": 280,
+      "mineralCost": 135,
       "maxHealth": 185.0,
       "range": 2.0,
       "damage": 12.0,
@@ -361,7 +361,7 @@
       "aggroPriority": 20
     },
     "t2_ranged_slave": {
-      "mineralCost": 100,
+      "mineralCost": 90,
       "maxHealth": 120.0,
       "range": 7.0,
       "damage": 8.0,
@@ -369,7 +369,7 @@
       "aggroPriority": 15
     },
     "t3_ranged_slave": {
-      "mineralCost": 240,
+      "mineralCost": 140,
       "maxHealth": 185.0,
       "range": 7.0,
       "damage": 12.0,
@@ -1192,10 +1192,10 @@
     "t3_rabbit_tower->t4_rabbit_leader_tower": 450,
     "base_warlock_tower->ranged_warlock_tower": 0,
     "base_warlock_tower->melee_warlock_tower": 0,
-    "t1_slave->t2_slave": 70,
-    "t2_slave->t3_slave": 150,
-    "t1_ranged_slave->t2_ranged_slave": 80,
-    "t2_ranged_slave->t3_ranged_slave": 160,
+    "t1_slave->t2_slave": 85,
+    "t2_slave->t3_slave": 135,
+    "t1_ranged_slave->t2_ranged_slave": 90,
+    "t2_ranged_slave->t3_ranged_slave": 140,
     "t1_chicken->t2_legion_chicken_tower": 50,
     "t1_chicken->t2_dps_chicken_tower": 50,
     "t1_slime_tower->t2_slime_tower": 55,
