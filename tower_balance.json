@@ -513,7 +513,7 @@
       "aggroPriority": 0
     },
     "t1_resonance_focus_moobloom": {
-      "mineralCost": 50,
+      "mineralCost": 40,
       "maxHealth": 45.0,
       "range": 8.0,
       "damage": 8.0,
@@ -537,7 +537,7 @@
       "aggroPriority": 12
     },
     "t1_resonance_wave_moobloom": {
-      "mineralCost": 45,
+      "mineralCost": 40,
       "maxHealth": 70.0,
       "range": 7.0,
       "damage": 8.0,
@@ -585,7 +585,7 @@
       "aggroPriority": 5
     },
     "t1_resonance_amplify_moobloom": {
-      "mineralCost": 45,
+      "mineralCost": 40,
       "maxHealth": 120.0,
       "range": 5.0,
       "damage": 8.0,
@@ -1637,13 +1637,13 @@
     },
     "t2_penguin_tower": {
       "cloneAttackIntervalMultiplier": 1.0,
-      "cloneDamageRatio": 1.05,
+      "cloneDamageRatio": 1.1,
       "cloneRangeRatio": 1.0,
       "cloneSpawnRadius": 1.5,
       "cloneAggroPriorityBonus": 5.0,
       "cloneCount": 2.0,
       "splashRadius": 1.25,
-      "cloneHealthRatio": 1.05,
+      "cloneHealthRatio": 1.1,
       "splashDamageRatio": 0.6
     },
     "t1_parrot_tower": {
@@ -1655,9 +1655,9 @@
       "maxAttackStacks": 9.0
     },
     "illusion_tower": {
-      "cloneDamageRatio": 0.7,
+      "cloneDamageRatio": 0.85,
       "cloneRangeRatio": 1.0,
-      "cloneHealthRatio": 0.7,
+      "cloneHealthRatio": 0.85,
       "cloneAttackIntervalMultiplier": 1.0,
       "cloneCount": 1.0,
       "cloneSpawnRadius": 1.5,
