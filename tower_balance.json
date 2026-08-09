@@ -1163,7 +1163,7 @@
     "ancient_city_catalyst_t1": {
       "mineralCost": 50,
       "maxHealth": 110.0,
-      "range": 2.5,
+      "range": 2.4,
       "damage": 3.0,
       "attackIntervalTicks": 20,
       "aggroPriority": 50
@@ -1171,7 +1171,7 @@
     "ancient_city_catalyst_t2": {
       "mineralCost": 110,
       "maxHealth": 220.0,
-      "range": 3.0,
+      "range": 2.4,
       "damage": 5.0,
       "attackIntervalTicks": 18,
       "aggroPriority": 80
@@ -1179,7 +1179,7 @@
     "ancient_city_catalyst_t3": {
       "mineralCost": 230,
       "maxHealth": 450.0,
-      "range": 3.5,
+      "range": 2.4,
       "damage": 8.0,
       "attackIntervalTicks": 16,
       "aggroPriority": 110
