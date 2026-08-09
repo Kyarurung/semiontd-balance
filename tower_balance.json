@@ -1604,7 +1604,6 @@
       "leaderRangeBonus": 1.0
     },
     "warlock_global": {
-      "damageCap": 350.0,
       "sacrificeRadius": 25.0,
       "minInterval": 5.0,
       "speedCap": 15.0,
@@ -2159,7 +2158,6 @@
     },
     "illager_witch_low_t2": {
       "raidLowHealthMarkDamageTakenBonus": 0.25,
-      "raidLowHealthMarkThreshold": 0.5,
       "markDurationTicks": 100.0,
       "markDamageTakenBonus": 0.4,
       "raidMarkDurationBonusTicks": 20.0,
@@ -2168,7 +2166,6 @@
       "raidForceTargetRadiusBonus": 0.5
     },
     "illager_witch_high_t2": {
-      "raidHighHealthMarkThreshold": 0.9,
       "markDurationTicks": 100.0,
       "markDamageTakenBonus": 0.5,
       "raidMarkDurationBonusTicks": 20.0,
@@ -2179,7 +2176,6 @@
     },
     "illager_illusioner_low_t3": {
       "raidLowHealthMarkDamageTakenBonus": 0.3,
-      "raidLowHealthMarkThreshold": 0.5,
       "markDurationTicks": 120.0,
       "markDamageTakenBonus": 0.5,
       "raidMarkDurationBonusTicks": 30.0,
@@ -2188,7 +2184,6 @@
       "raidForceTargetRadiusBonus": 1.0
     },
     "illager_illusioner_high_t3": {
-      "raidHighHealthMarkThreshold": 0.9,
       "markDurationTicks": 120.0,
       "markDamageTakenBonus": 0.6,
       "raidMarkDurationBonusTicks": 30.0,
@@ -2427,7 +2422,6 @@
       "transferTicks": 200.0,
       "transferHeal": 30.0,
       "transferHealRatio": 0.05,
-      "damageCap": 300.0,
       "roundDamageRatio": 0.75,
       "permanentDamageRatio": 0.06,
       "roundHealthRatio": 0.5,
