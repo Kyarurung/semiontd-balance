@@ -2648,21 +2648,21 @@
     "ancient_city_shrieker_t1": {
       "magicDamage": 4.0,
       "magicCooldownTicks": 60.0,
-      "magicRadius": 2.0,
+      "magicRadius": 1.5,
       "slowMagnitude": 0.1,
       "slowDurationTicks": 40.0
     },
     "ancient_city_shrieker_t2": {
       "magicDamage": 8.0,
       "magicCooldownTicks": 50.0,
-      "magicRadius": 2.5,
+      "magicRadius": 2,
       "slowMagnitude": 0.15,
       "slowDurationTicks": 50.0
     },
     "ancient_city_shrieker_t3": {
       "magicDamage": 34.0,
       "magicCooldownTicks": 40.0,
-      "magicRadius": 3.0,
+      "magicRadius": 2.25,
       "slowMagnitude": 0.2,
       "slowDurationTicks": 60.0
     },
