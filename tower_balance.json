@@ -1604,7 +1604,7 @@
       "leaderRangeBonus": 1.0
     },
     "warlock_global": {
-      "damageCap": 350.0,
+      "damageSoftCap": 180.0,
       "sacrificeRadius": 25.0,
       "minInterval": 5.0,
       "speedCap": 15.0,
@@ -2426,7 +2426,7 @@
       "transferTicks": 200.0,
       "transferHeal": 30.0,
       "transferHealRatio": 0.05,
-      "damageCap": 300.0,
+      "damageSoftCap": 120.0,
       "roundDamageRatio": 0.75,
       "permanentDamageRatio": 0.06,
       "roundHealthRatio": 0.5,
