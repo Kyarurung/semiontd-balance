@@ -1162,24 +1162,24 @@
     },
     "ancient_city_catalyst_t1": {
       "mineralCost": 50,
-      "maxHealth": 145.0,
-      "range": 2.5,
+      "maxHealth": 110.0,
+      "range": 2.4,
       "damage": 3.0,
       "attackIntervalTicks": 20,
       "aggroPriority": 50
     },
     "ancient_city_catalyst_t2": {
       "mineralCost": 110,
-      "maxHealth": 310.0,
-      "range": 3.0,
+      "maxHealth": 220.0,
+      "range": 2.4,
       "damage": 5.0,
       "attackIntervalTicks": 18,
       "aggroPriority": 80
     },
     "ancient_city_catalyst_t3": {
       "mineralCost": 230,
-      "maxHealth": 650.0,
-      "range": 3.5,
+      "maxHealth": 450.0,
+      "range": 2.4,
       "damage": 8.0,
       "attackIntervalTicks": 16,
       "aggroPriority": 110
@@ -1202,7 +1202,7 @@
     },
     "ancient_city_sensor_t3": {
       "mineralCost": 190,
-      "maxHealth": 130.0,
+      "maxHealth": 110.0,
       "range": 10.0,
       "damage": 5.0,
       "attackIntervalTicks": 16,
@@ -1218,7 +1218,7 @@
     },
     "ancient_city_shrieker_t2": {
       "mineralCost": 110,
-      "maxHealth": 120.0,
+      "maxHealth": 80.0,
       "range": 7.0,
       "damage": 4.0,
       "attackIntervalTicks": 18,
@@ -1226,7 +1226,7 @@
     },
     "ancient_city_shrieker_t3": {
       "mineralCost": 220,
-      "maxHealth": 180.0,
+      "maxHealth": 110.0,
       "range": 8.0,
       "damage": 7.0,
       "attackIntervalTicks": 16,
@@ -1234,7 +1234,7 @@
     },
     "ancient_city_warden_t1": {
       "mineralCost": 110,
-      "maxHealth": 120.0,
+      "maxHealth": 80.0,
       "range": 6.5,
       "damage": 4.0,
       "attackIntervalTicks": 20,
@@ -1242,7 +1242,7 @@
     },
     "ancient_city_warden_t2": {
       "mineralCost": 160,
-      "maxHealth": 220.0,
+      "maxHealth": 100.0,
       "range": 7.5,
       "damage": 8.0,
       "attackIntervalTicks": 18,
@@ -1250,7 +1250,7 @@
     },
     "ancient_city_warden_t3": {
       "mineralCost": 300,
-      "maxHealth": 360.0,
+      "maxHealth": 115.0,
       "range": 9.0,
       "damage": 12.0,
       "attackIntervalTicks": 16,
@@ -1604,12 +1604,12 @@
       "leaderRangeBonus": 1.0
     },
     "warlock_global": {
-      "damageSoftCap": 180.0,
       "sacrificeRadius": 25.0,
       "minInterval": 5.0,
       "speedCap": 15.0,
       "awakeningAbsorptions": 20.0,
-      "awakeningThreshold": 0.4
+      "awakeningThreshold": 0.4,
+      "damageSoftCap": 180.0
     },
     "base_warlock_tower": {
       "fatalHeal": 0.35,
@@ -2158,7 +2158,6 @@
     },
     "illager_witch_low_t2": {
       "raidLowHealthMarkDamageTakenBonus": 0.25,
-      "raidLowHealthMarkThreshold": 0.5,
       "markDurationTicks": 100.0,
       "markDamageTakenBonus": 0.4,
       "raidMarkDurationBonusTicks": 20.0,
@@ -2167,7 +2166,6 @@
       "raidForceTargetRadiusBonus": 0.5
     },
     "illager_witch_high_t2": {
-      "raidHighHealthMarkThreshold": 0.9,
       "markDurationTicks": 100.0,
       "markDamageTakenBonus": 0.5,
       "raidMarkDurationBonusTicks": 20.0,
@@ -2178,7 +2176,6 @@
     },
     "illager_illusioner_low_t3": {
       "raidLowHealthMarkDamageTakenBonus": 0.3,
-      "raidLowHealthMarkThreshold": 0.5,
       "markDurationTicks": 120.0,
       "markDamageTakenBonus": 0.5,
       "raidMarkDurationBonusTicks": 30.0,
@@ -2187,7 +2184,6 @@
       "raidForceTargetRadiusBonus": 1.0
     },
     "illager_illusioner_high_t3": {
-      "raidHighHealthMarkThreshold": 0.9,
       "markDurationTicks": 120.0,
       "markDamageTakenBonus": 0.6,
       "raidMarkDurationBonusTicks": 30.0,
@@ -2426,7 +2422,6 @@
       "transferTicks": 200.0,
       "transferHeal": 30.0,
       "transferHealRatio": 0.05,
-      "damageSoftCap": 120.0,
       "roundDamageRatio": 0.75,
       "permanentDamageRatio": 0.06,
       "roundHealthRatio": 0.5,
@@ -2458,7 +2453,8 @@
       "regenerationCap": 30.0,
       "regenerationTicks": 20.0,
       "dragonFinalDamage": 0.2,
-      "dragonRangeBonus": 2.0
+      "dragonRangeBonus": 2.0,
+      "damageSoftCap": 120.0
     },
     "ocean_global": {
       "initialWater": 100.0,
@@ -2604,27 +2600,25 @@
       "deathSpreadCapPerRound": 4.0,
       "resonanceDamageCap": 2.0,
       "maxCombinedDamageBonus": 2.3,
-      "finalDefenseSeedCount": 5.0,
-      "incomeMagicDamageMultiplier": 1.75,
-      "killsPerSpread": 3.0,
-      "killSpreadCapPerRound": 2.0
+      "finalDefenseSeedCount": 10.0,
+      "incomeMagicDamageMultiplier": 1.75
     },
     "ancient_city_catalyst_t1": {
       "magicDamage": 6.0,
       "retaliationCooldownTicks": 60.0,
-      "retaliationRadius": 2.0,
+      "retaliationRadius": 1.5,
       "sculkDamageReduction": 0.1
     },
     "ancient_city_catalyst_t2": {
       "magicDamage": 9.0,
       "retaliationCooldownTicks": 50.0,
-      "retaliationRadius": 2.5,
+      "retaliationRadius": 1.75,
       "sculkDamageReduction": 0.15
     },
     "ancient_city_catalyst_t3": {
       "magicDamage": 30.0,
       "retaliationCooldownTicks": 40.0,
-      "retaliationRadius": 3.0,
+      "retaliationRadius": 2,
       "sculkDamageReduction": 0.2
     },
     "ancient_city_sensor_t1": {
@@ -2648,21 +2642,21 @@
     "ancient_city_shrieker_t1": {
       "magicDamage": 4.0,
       "magicCooldownTicks": 60.0,
-      "magicRadius": 2.0,
+      "magicRadius": 1.5,
       "slowMagnitude": 0.1,
       "slowDurationTicks": 40.0
     },
     "ancient_city_shrieker_t2": {
       "magicDamage": 8.0,
       "magicCooldownTicks": 50.0,
-      "magicRadius": 2.5,
+      "magicRadius": 2,
       "slowMagnitude": 0.15,
       "slowDurationTicks": 50.0
     },
     "ancient_city_shrieker_t3": {
       "magicDamage": 34.0,
       "magicCooldownTicks": 40.0,
-      "magicRadius": 3.0,
+      "magicRadius": 2.25,
       "slowMagnitude": 0.2,
       "slowDurationTicks": 60.0
     },
@@ -2671,21 +2665,21 @@
       "magicCooldownTicks": 60.0,
       "targetCount": 2.0,
       "sculkExtraTargets": 1.0,
-      "secondaryDamageRatio": 0.25
+      "secondaryDamageRatio": 0.4
     },
     "ancient_city_warden_t2": {
       "magicDamage": 16.0,
       "magicCooldownTicks": 50.0,
       "targetCount": 3.0,
       "sculkExtraTargets": 1.0,
-      "secondaryDamageRatio": 0.25
+      "secondaryDamageRatio": 0.5
     },
     "ancient_city_warden_t3": {
       "magicDamage": 55.0,
-      "magicCooldownTicks": 40.0,
+      "magicCooldownTicks": 50.0,
       "targetCount": 4.0,
-      "sculkExtraTargets": 1.0,
-      "secondaryDamageRatio": 0.25
+      "sculkExtraTargets": 2.0,
+      "secondaryDamageRatio": 0.75
     }
   },
   "illusionCloneQueue": {
