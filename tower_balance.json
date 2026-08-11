@@ -337,7 +337,7 @@
       "aggroPriority": 30
     },
     "t2_slave": {
-      "mineralCost": 85,
+      "mineralCost": 130,
       "maxHealth": 120.0,
       "range": 2.0,
       "damage": 8.0,
@@ -345,7 +345,7 @@
       "aggroPriority": 50
     },
     "t3_slave": {
-      "mineralCost": 135,
+      "mineralCost": 280,
       "maxHealth": 185.0,
       "range": 2.0,
       "damage": 12.0,
@@ -361,7 +361,7 @@
       "aggroPriority": 20
     },
     "t2_ranged_slave": {
-      "mineralCost": 90,
+      "mineralCost": 100,
       "maxHealth": 120.0,
       "range": 7.0,
       "damage": 8.0,
@@ -369,7 +369,7 @@
       "aggroPriority": 15
     },
     "t3_ranged_slave": {
-      "mineralCost": 140,
+      "mineralCost": 240,
       "maxHealth": 185.0,
       "range": 7.0,
       "damage": 12.0,
@@ -1288,10 +1288,10 @@
     "t3_rabbit_tower->t4_rabbit_leader_tower": 450,
     "base_warlock_tower->ranged_warlock_tower": 0,
     "base_warlock_tower->melee_warlock_tower": 0,
-    "t1_slave->t2_slave": 85,
-    "t2_slave->t3_slave": 135,
-    "t1_ranged_slave->t2_ranged_slave": 90,
-    "t2_ranged_slave->t3_ranged_slave": 140,
+    "t1_slave->t2_slave": 70,
+    "t2_slave->t3_slave": 150,
+    "t1_ranged_slave->t2_ranged_slave": 80,
+    "t2_ranged_slave->t3_ranged_slave": 160,
     "t1_chicken->t2_legion_chicken_tower": 50,
     "t1_chicken->t2_dps_chicken_tower": 50,
     "t1_slime_tower->t2_slime_tower": 55,
@@ -1604,7 +1604,6 @@
       "leaderRangeBonus": 1.0
     },
     "warlock_global": {
-      "damageCap": 350.0,
       "sacrificeRadius": 25.0,
       "minInterval": 5.0,
       "speedCap": 15.0,
@@ -2159,7 +2158,6 @@
     },
     "illager_witch_low_t2": {
       "raidLowHealthMarkDamageTakenBonus": 0.25,
-      "raidLowHealthMarkThreshold": 0.5,
       "markDurationTicks": 100.0,
       "markDamageTakenBonus": 0.4,
       "raidMarkDurationBonusTicks": 20.0,
@@ -2168,7 +2166,6 @@
       "raidForceTargetRadiusBonus": 0.5
     },
     "illager_witch_high_t2": {
-      "raidHighHealthMarkThreshold": 0.9,
       "markDurationTicks": 100.0,
       "markDamageTakenBonus": 0.5,
       "raidMarkDurationBonusTicks": 20.0,
@@ -2179,7 +2176,6 @@
     },
     "illager_illusioner_low_t3": {
       "raidLowHealthMarkDamageTakenBonus": 0.3,
-      "raidLowHealthMarkThreshold": 0.5,
       "markDurationTicks": 120.0,
       "markDamageTakenBonus": 0.5,
       "raidMarkDurationBonusTicks": 30.0,
@@ -2188,7 +2184,6 @@
       "raidForceTargetRadiusBonus": 1.0
     },
     "illager_illusioner_high_t3": {
-      "raidHighHealthMarkThreshold": 0.9,
       "markDurationTicks": 120.0,
       "markDamageTakenBonus": 0.6,
       "raidMarkDurationBonusTicks": 30.0,
@@ -2427,23 +2422,14 @@
       "transferTicks": 200.0,
       "transferHeal": 30.0,
       "transferHealRatio": 0.05,
-      "roundHealthRatio": 0.5,
-      "permanentHealthRatio": 0.04,
       "healthThreshold": 3000.0,
       "healthScale": 500.0,
+      "damageThreshold": 150.0,
+      "damageScale": 25.0,
       "roundDamageRatio": 0.66,
       "permanentDamageRatio": 0.04,
-      "damageThreshold": 150.0,
-      "damageScale": 25,
-      "lifeStealStacks": 30.0,
-      "lifeStealStep": 0.01,
-      "lifeStealCap": 0.1,
-      "damageReductionStacks": 15.0,
-      "damageReductionStep": 0.01,
-      "damageReductionCap": 0.2,
-      "regenerationStacks": 10.0,
-      "regenerationStep": 1.0,
-      "regenerationCap": 30.0,
+      "roundHealthRatio": 0.5,
+      "permanentHealthRatio": 0.04,
       "splash1": 10.0,
       "splash2": 35.0,
       "splash3": 75.0,
@@ -2461,6 +2447,16 @@
       "attackRangeStacks": 50.0,
       "attackRangeStep": 0.5,
       "attackRangeCap": 3.0,
+      "lifeStealStacks": 30.0,
+      "lifeStealStep": 0.01,
+      "lifeStealCap": 0.1,
+      "damageReductionStacks": 15.0,
+      "damageReductionStep": 0.01,
+      "damageReductionCap": 0.2,
+      "regenerationStacks": 10.0,
+      "regenerationStep": 1.0,
+      "regenerationCap": 30.0,
+      "regenerationTicks": 20.0,
       "dragonFinalDamage": 0.1,
       "dragonRangeBonus": 2.0
     },
