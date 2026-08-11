@@ -2434,7 +2434,7 @@
       "roundDamageRatio": 0.66,
       "permanentDamageRatio": 0.04,
       "damageThreshold": 150.0,
-      "damageScale": 22.5,
+      "damageScale": 25,
       "lifeStealStacks": 30.0,
       "lifeStealStep": 0.01,
       "lifeStealCap": 0.1,
