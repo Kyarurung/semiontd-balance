@@ -2684,6 +2684,15 @@
       "targetCount": 4.0,
       "sculkExtraTargets": 2.0,
       "secondaryDamageRatio": 0.75
+    },
+    "adversary_global": {
+      "evolvedSplashDamageRatio": 0.2,
+      "baseRivalKillHealRatio": 0.12,
+      "enhancedRivalKillHealRatio": 0.18,
+      "rivalKillHealCapRatioPerWave": 0.4,
+      "focusFireDamageReductionPerExtraAttacker": 0.04,
+      "focusFireDamageReductionCap": 0.4,
+      "sculkSelfDamageFloorRatio": 0.4
     }
   },
   "illusionCloneQueue": {
