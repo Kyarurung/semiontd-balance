@@ -1697,7 +1697,11 @@
       "speedCap": 15.0,
       "awakeningAbsorptions": 20.0,
       "awakeningThreshold": 0.4,
-      "damageSoftCap": 180.0
+      "damageSoftCap": 180.0,
+      "damageThreshold": 175.0,
+      "damageScale": 25.0,
+      "healthThreshold": 3500.0,
+      "healthScale": 500.0
     },
     "base_warlock_tower": {
       "fatalHeal": 0.35,
@@ -2778,8 +2782,8 @@
       "evolvedSplashDamageRatio": 0.5,
       "postEvolutionDamageBonusPerScore": 0.005,
       "postEvolutionDamageBonusCap": 2.0,
-      "baseRivalKillHealRatio": 0.20,
-      "enhancedRivalKillHealRatio": 0.30,
+      "baseRivalKillHealRatio": 0.2,
+      "enhancedRivalKillHealRatio": 0.3,
       "rivalKillHealCapRatioPerWave": 1.0,
       "focusFireDamageReductionPerExtraAttacker": 0.04,
       "focusFireDamageReductionCap": 0.4,
@@ -2813,7 +2817,7 @@
       "fireworkMaxTargets": 8.0,
       "maceSweepExtraTargets": 5.0,
       "goldenExtraDamageRatio": 0.5,
-      "baseSplashRadius": 4,
+      "baseSplashRadius": 4.0,
       "fireworkWaveDamageMultiplier": 1.8,
       "bigGameStreak2": 1.35,
       "rivalRoundHealthGrowth": 0.07,
@@ -2949,35 +2953,35 @@
     },
     "adversary_breeze_rival": {
       "scorePerKill": 2.0,
-      "baseArmor": 0.0
+      "baseArmor": 2.0
     },
     "adversary_breeze_rival_enhanced": {
-      "scorePerKill": 3.0,
-      "baseArmor": 4.0
+      "scorePerKill": 4.0,
+      "baseArmor": 6.0
     },
     "adversary_creeper_rival": {
       "scorePerKill": 2.0,
-      "baseArmor": 2.0
+      "baseArmor": 4.0
     },
     "adversary_creeper_rival_enhanced": {
-      "scorePerKill": 3.0,
-      "baseArmor": 6.0
+      "scorePerKill": 4.0,
+      "baseArmor": 8.0
     },
     "adversary_phantom_rival": {
       "scorePerKill": 2.0,
-      "baseArmor": 1.0
+      "baseArmor": 3.0
     },
     "adversary_phantom_rival_enhanced": {
-      "scorePerKill": 3.0,
-      "baseArmor": 5.0
+      "scorePerKill": 4.0,
+      "baseArmor": 8.0
     },
     "adversary_polar_bear_rival": {
       "scorePerKill": 2.0,
-      "baseArmor": 3.0
+      "baseArmor": 5.0
     },
     "adversary_polar_bear_rival_enhanced": {
-      "scorePerKill": 3.0,
-      "baseArmor": 7.0
+      "scorePerKill": 4.0,
+      "baseArmor": 12.0
     }
   },
   "illusionCloneQueue": {
