@@ -2521,7 +2521,7 @@
       "transferHealRatio": 0.05,
       "roundHealthRatio": 0.5,
       "permanentHealthRatio": 0.04,
-      "healthThreshold": 3000.0,
+      "healthThreshold": 2500.0,
       "healthScale": 500.0,
       "roundDamageRatio": 0.66,
       "permanentDamageRatio": 0.04,
