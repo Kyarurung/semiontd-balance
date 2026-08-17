@@ -2261,7 +2261,7 @@
       "maxHealth": 126.0,
       "range": 10.0,
       "damage": 20.4,
-      "attackIntervalTicks": 14,
+      "attackIntervalTicks": 13,
       "aggroPriority": 0
     },
     "hero_party_archer_3": {
@@ -2269,7 +2269,7 @@
       "maxHealth": 180.0,
       "range": 10.0,
       "damage": 28.8,
-      "attackIntervalTicks": 12,
+      "attackIntervalTicks": 10,
       "aggroPriority": 0
     },
     "hero_party_archer_4": {
@@ -2277,7 +2277,7 @@
       "maxHealth": 240.0,
       "range": 10.0,
       "damage": 38.4,
-      "attackIntervalTicks": 10,
+      "attackIntervalTicks": 7,
       "aggroPriority": 0
     },
     "hero_party_mage_1": {
