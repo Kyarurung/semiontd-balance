@@ -5349,13 +5349,13 @@
       "tntFuseVfxIntervalTicks": 10.0,
       "tntFuseTicks": 60.0,
       "dispenserDamageBonusPerGolemPress": 0.01,
-      "dispenserDamageBonusCap": 2.0,
-      "doorDamageReductionPerGolemPress": 5.0E-4,
+      "dispenserDamageBonusCap": 3.5,
+      "doorDamageReductionPerGolemPress": 0.001,
       "doorDamageReductionCap": 0.4,
       "golemPressesPerExtraTarget": 10.0,
       "tntExtraTargetCap": 20.0,
       "pistonExtraTargetCap": 10.0,
-      "slimeSlowPerGolemPress": 5.0E-4,
+      "slimeSlowPerGolemPress": 0.001,
       "slimeSlowCap": 0.8
     },
     "engineer_redstone_dust": {
