@@ -5550,6 +5550,7 @@
       "giantChargeTicks": 400.0,
       "giantAccelerationRadius": 6.0,
       "giantAccelerationMemoryTicks": 40.0,
+      "giantExecutionVisualShrink": 0.2,
       "giantInitialExecutionHealth": 50.0,
       "giantExecutionGrowthRatio": 0.02,
       "giantGrowthTargetCapMultiplier": 2.0,
