@@ -3341,7 +3341,7 @@
       "maxHealth": 65.0,
       "range": 7.0,
       "damage": 7.0,
-      "attackIntervalTicks": 18,
+      "attackIntervalTicks": 14,
       "aggroPriority": 0
     },
     "succubus_dream_dust_t2": {
@@ -3349,7 +3349,7 @@
       "maxHealth": 105.0,
       "range": 8.0,
       "damage": 13.0,
-      "attackIntervalTicks": 16,
+      "attackIntervalTicks": 12,
       "aggroPriority": 0
     },
     "succubus_dream_dust_t3": {
@@ -3357,7 +3357,7 @@
       "maxHealth": 155.0,
       "range": 9.0,
       "damage": 23.0,
-      "attackIntervalTicks": 14,
+      "attackIntervalTicks": 10,
       "aggroPriority": 0
     },
     "succubus_sleepwalker_t1": {
@@ -3413,7 +3413,7 @@
       "maxHealth": 70.0,
       "range": 8.0,
       "damage": 14.0,
-      "attackIntervalTicks": 20,
+      "attackIntervalTicks": 16,
       "aggroPriority": 0
     },
     "succubus_nightmare_t2": {
@@ -3421,7 +3421,7 @@
       "maxHealth": 110.0,
       "range": 9.0,
       "damage": 26.0,
-      "attackIntervalTicks": 18,
+      "attackIntervalTicks": 14,
       "aggroPriority": 0
     },
     "succubus_nightmare_t3": {
@@ -3429,11 +3429,11 @@
       "maxHealth": 160.0,
       "range": 10.0,
       "damage": 46.0,
-      "attackIntervalTicks": 16,
+      "attackIntervalTicks": 12,
       "aggroPriority": 0
     },
     "succubus": {
-      "mineralCost": 500,
+      "mineralCost": 120,
       "maxHealth": 160.0,
       "range": 8.0,
       "damage": 18.0,
@@ -3821,15 +3821,15 @@
     "gamble_dice_t2->gamble_dice_t3": 200,
     "gamble_spectator_t1->gamble_spectator_t2": 100,
     "gamble_spectator_t2->gamble_spectator_t3": 200,
-    "gamble_gambler->bet_odd": 50,
-    "gamble_gambler->bet_even": 50,
-    "gamble_gambler->roll_two_dice": 100,
-    "gamble_king->bet_odd": 50,
-    "gamble_king->bet_even": 50,
-    "gamble_king->roll_two_dice": 100,
-    "gamble_dark_king->bet_odd": 50,
-    "gamble_dark_king->bet_even": 50,
-    "gamble_dark_king->roll_two_dice": 100,
+    "gamble_gambler->bet_odd": 80,
+    "gamble_gambler->bet_even": 80,
+    "gamble_gambler->roll_two_dice": 160,
+    "gamble_king->bet_odd": 80,
+    "gamble_king->bet_even": 80,
+    "gamble_king->roll_two_dice": 160,
+    "gamble_dark_king->bet_odd": 80,
+    "gamble_dark_king->bet_even": 80,
+    "gamble_dark_king->roll_two_dice": 160,
     "succubus_dream_dust_t1->succubus_dream_dust_t2": 100,
     "succubus_dream_dust_t2->succubus_dream_dust_t3": 210,
     "succubus_sleepwalker_t1->succubus_sleepwalker_t2": 110,
@@ -6858,6 +6858,7 @@
       "maxStacks": 10.0,
       "stackDurationTicks": 240.0,
       "sleepDurationTicks": 100.0,
+      "towerSleepDurationTicks": 40.0,
       "awakenedImmunityTicks": 60.0,
       "spreadStacks": 2.0,
       "spreadRadius": 2.5,
@@ -6868,7 +6869,7 @@
       "succubusAmplification": 0.5,
       "monsterWakeDamageThreshold": 0.4,
       "towerWakeDamageThreshold": 0.1,
-      "monsterWakeBonusDamage": 0.4,
+      "monsterWakeBonusDamage": 0.3,
       "towerWakeBonusDamage": 0.1,
       "executionSleepCount": 3.0,
       "absorbAttackRatio": 0.03,
@@ -6885,29 +6886,38 @@
     },
     "succubus_sleepwalker_t1": {
       "counterCooldownTicks": 60.0,
+      "counterStacks": 1.0,
       "dreamDamageReduction": 0.1
     },
     "succubus_sleepwalker_t2": {
       "counterCooldownTicks": 40.0,
+      "counterStacks": 2.0,
       "dreamDamageReduction": 0.15
     },
     "succubus_sleepwalker_t3": {
       "counterCooldownTicks": 30.0,
+      "counterStacks": 3.0,
       "dreamDamageReduction": 0.2
     },
     "succubus_lullaby_t1": {
       "pulseIntervalTicks": 120.0,
       "radius": 4.5,
+      "allyMaxTargets": 2.0,
+      "enemyMaxTargets": 3.0,
       "maxTargets": 2.0
     },
     "succubus_lullaby_t2": {
       "pulseIntervalTicks": 100.0,
       "radius": 5.0,
+      "allyMaxTargets": 3.0,
+      "enemyMaxTargets": 5.0,
       "maxTargets": 3.0
     },
     "succubus_lullaby_t3": {
       "pulseIntervalTicks": 80.0,
       "radius": 5.5,
+      "allyMaxTargets": 4.0,
+      "enemyMaxTargets": 7.0,
       "maxTargets": 4.0
     },
     "succubus_nightmare_t1": {
@@ -6970,7 +6980,7 @@
         "reputationDamagePerPoint": 0.005,
         "reputationAttackSpeedPerPoint": 0.001,
         "reputationHealthPerPoint": 0.0075,
-        "reputationDamageReductionPerPoint": 0.00050,
+        "reputationDamageReductionPerPoint": 5.0E-4,
         "rangedDamagePerExperience": 0.015,
         "rangedAttackSpeedPerExperience": 0.02,
         "reputationDamagePerPointInterval": 1.0,
@@ -6986,7 +6996,7 @@
         "reputationHealthPerPoint": 0.01,
         "reputationDamageReductionPerPoint": 0.0025,
         "rangedDamagePerExperience": 0.02,
-        "rangedAttackSpeedPerExperience": 0.00075,
+        "rangedAttackSpeedPerExperience": 7.5E-4,
         "reputationDamagePerPointInterval": 1.0,
         "reputationAttackSpeedPerPointInterval": 1.0,
         "reputationHealthPerPointInterval": 1.0,
@@ -7012,7 +7022,7 @@
         "reputationDamagePerPoint": 0.005,
         "reputationAttackSpeedPerPoint": 0.001,
         "reputationHealthPerPoint": 0.0015,
-        "reputationDamageReductionPerPoint": 0.00050,
+        "reputationDamageReductionPerPoint": 5.0E-4,
         "golemHealthPerExperience": 0.0075,
         "golemDamageReductionPerExperience": 0.001,
         "reputationDamagePerPointInterval": 1.0,
@@ -7026,8 +7036,8 @@
         "reputationDamagePerPoint": 0.005,
         "reputationAttackSpeedPerPoint": 0.001,
         "reputationHealthPerPoint": 0.00175,
-        "reputationDamageReductionPerPoint": 0.00075,
-        "golemHealthPerExperience": 0.00075,
+        "reputationDamageReductionPerPoint": 7.5E-4,
+        "golemHealthPerExperience": 7.5E-4,
         "golemDamageReductionPerExperience": 0.001,
         "reputationDamagePerPointInterval": 1.0,
         "reputationAttackSpeedPerPointInterval": 1.0,
