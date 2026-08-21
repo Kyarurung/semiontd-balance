@@ -3433,7 +3433,7 @@
       "aggroPriority": 0
     },
     "succubus": {
-      "mineralCost": 120,
+      "mineralCost": 500,
       "maxHealth": 160.0,
       "range": 8.0,
       "damage": 18.0,
@@ -6870,7 +6870,9 @@
       "towerWakeDamageThreshold": 0.1,
       "monsterWakeBonusDamage": 0.4,
       "towerWakeBonusDamage": 0.1,
-      "executionSleepCount": 3.0
+      "executionSleepCount": 3.0,
+      "absorbAttackRatio": 0.03,
+      "absorbMaxHealthRatio": 0.01
     },
     "succubus_dream_dust_t1": {
       "stackEvery": 3.0
