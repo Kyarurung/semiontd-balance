@@ -1256,6 +1256,14 @@
       "attackIntervalTicks": 16,
       "aggroPriority": 0
     },
+    "ancient_city_warden_t4": {
+      "mineralCost": 650,
+      "maxHealth": 240.0,
+      "range": 9.5,
+      "damage": 18.0,
+      "attackIntervalTicks": 14,
+      "aggroPriority": 0
+    },
     "adversary_fox": {
       "mineralCost": 100,
       "maxHealth": 420.0,
@@ -3550,6 +3558,7 @@
     "ancient_city_shrieker_t2->ancient_city_shrieker_t3": 220,
     "ancient_city_warden_t1->ancient_city_warden_t2": 160,
     "ancient_city_warden_t2->ancient_city_warden_t3": 300,
+    "ancient_city_warden_t3->ancient_city_warden_t4": 650,
     "adversary_fox->adversary_fox_form_breeze": 200,
     "adversary_fox_form_breeze->adversary_fox_form_golden_fang": 400,
     "adversary_fox_form_breeze->adversary_fox_form_shield_bearer": 400,
@@ -4584,8 +4593,10 @@
     },
     "illager_raid": {
       "timedEffectDurationTicks": 40.0,
-      "damagePercentPerTower": 0.08,
-      "attackSpeedPercentPerTower": 0.03,
+      "damagePercentPerTower": 0.06,
+      "attackSpeedPercentPerTower": 0.02,
+      "damageBonusCap": 0.6,
+      "attackSpeedBonusCap": 0.2,
       "illagerTowerDeathGauge": 25.0,
       "markedKillBonusGauge": 10.0,
       "incomeKillGauge": 6.0,
@@ -5165,6 +5176,13 @@
       "magicDamage": 55.0,
       "magicCooldownTicks": 50.0,
       "targetCount": 4.0,
+      "sculkExtraTargets": 2.0,
+      "secondaryDamageRatio": 0.75
+    },
+    "ancient_city_warden_t4": {
+      "magicDamage": 68.0,
+      "magicCooldownTicks": 46.0,
+      "targetCount": 5.0,
       "sculkExtraTargets": 2.0,
       "secondaryDamageRatio": 0.75
     },
@@ -6028,7 +6046,7 @@
       "maxSlow": 0.45,
       "maxZoneAllyDamageReduction": 0.35,
       "waterPressureDamageRatio": 0.16,
-      "waterPressureDamageCap": 2.5,
+      "waterPressureDamageCap": 2.0,
       "waterPressureRadius": 3.0,
       "zoneStackMultiplier": 2.0,
       "maxZoneCount": 6.0,
@@ -6325,12 +6343,15 @@
       "powerDraw": 6.0
     },
     "thunder_squirrel_t2": {
-      "powerDraw": 14.0
+      "powerDraw": 14.0,
+      "chainTargets": 2.0,
+      "chainRadius": 3.0,
+      "chainDamageRatio": 0.35
     },
     "thunder_squirrel_t3": {
       "powerDraw": 24.0,
-      "chainTargets": 3.0,
-      "chainRadius": 3.5,
+      "chainTargets": 4.0,
+      "chainRadius": 4.0,
       "chainDamageRatio": 0.48
     },
     "thunder_surge_t2": {
@@ -6862,14 +6883,14 @@
       "awakenedImmunityTicks": 60.0,
       "spreadStacks": 2.0,
       "spreadRadius": 2.5,
-      "allyDamagePerStack": 0.1,
-      "allyAttackSpeedPerStack": 0.05,
+      "allyDamagePerStack": 0.07,
+      "allyAttackSpeedPerStack": 0.035,
       "enemyAttackSpeedPerStack": 0.05,
       "enemyMoveSpeedPerStack": 0.05,
       "succubusAmplification": 0.5,
       "monsterWakeDamageThreshold": 0.4,
       "towerWakeDamageThreshold": 0.1,
-      "monsterWakeBonusDamage": 0.3,
+      "monsterWakeBonusDamage": 0.2,
       "towerWakeBonusDamage": 0.1,
       "executionSleepCount": 3.0,
       "absorbAttackRatio": 0.03,
